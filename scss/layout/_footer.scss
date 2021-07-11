@@ -1,0 +1,290 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.not-ready{
+}
+
+
+
+.footer-top{
+}
+
+.footer-middle{
+}
+
+.footer-bottom{
+}
+.footer {
+
+  .copy{
+    a {
+      background-color: $fourth-color;
+    }
+
+  }
+
+}
+
+ul.footer-menu {
+  list-style: none;
+}
+
+ul.footer-menu li {
+  margin: 11px 15px;
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-family: cabin;
+}
+
+.copy{
+  padding-top: 30px;
+  padding-left: 27px;
+    margin-bottom: 30px;
+  p {
+    a{
+      color: #fff;
+      text-align: center;
+      margin-right: 15px;
+      font-size: 18px;
+      font-family: cabin;
+    }
+  }
+}
+
+footer {
+  background-color: #2C2B2B;
+  // height: 100px;
+  color: $white;
+  margin-top: 40px;
+  .social-icons {
+    display: inline;
+    ul {
+      li {
+        a {
+          color: $white;
+          font-size: 36px;
+          margin-left: 32px;
+          i {
+            @include on-event{
+              color: $primary-color;
+              opacity: 0.8;
+              transition: all 0.3s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+  .logos-footer {
+    padding-top: 114px;
+    img {
+      padding: 15px 0px;
+    }
+  }
+
+
+  .nav-footer {
+    ul {
+      li {
+        a {
+          color: $white;
+          @include on-event{
+            color: $primary-color;
+            opacity: 0.8;
+            transition: all 0.3s ease;
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+ul.list-inline.social-items {
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+p.text-center.text-copy {
+  margin-bottom: 4px;
+}
+
+p.text-center{
+  a {
+    @include on-event{
+      color: $primary-color;
+      opacity: 0.8;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .footer.social-icons {
+    display: inline;
+
+  }
+
+  footer{
+    .logos-footer{
+      padding: 30px 0px;
+      display: flex;
+      list-style: none;
+      flex-direction: row;
+      align-items: center;
+      padding-bottom: 20px;
+
+      img{
+        margin-left: 0;
+        margin-right: 10px;
+        max-width: 280px;
+        :last-child{
+          margin-right: 0px;
+        }
+      }
+    }
+
+
+    .social-icons{
+
+      padding: 50px 0px;
+      ul{
+        li{
+          padding-right: 8px;
+
+          a{
+            i{
+
+              &.fa{
+                font-size: 25px;
+                color: $white;
+                @include on-event{
+                color: $primary-color;
+                opacity: 0.8;
+                transition: all 0.3s ease;
+              }
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .copy {
+    padding-top: 52px;
+    padding-left: 27px;
+      margin-bottom: 30px;
+    p{
+      a{
+        margin-right: 0px;
+      }
+
+    }
+
+  }
+
+  footer .social-icons ul li a {
+    color: #fff;
+    font-size: 36px;
+    margin-left: 16px;
+
+
+  }
+
+
+}
+
+
+
+
+@media (min-width: 992px){
+
+
+  footer{
+    .logos-footer{
+      padding: 30px 0px;
+      display: flex;
+      list-style: none;
+      flex-direction: row;
+      align-items: center;
+
+      img{
+        margin-left: 0;
+        margin-right: 50px;
+        :last-child{
+          margin-right: 0px;
+        }
+      }
+    }
+
+
+    .social-icons{
+      padding: 50px 0px;
+      display: block;
+      ul{
+        li{
+          a{
+            i{
+              &.fa{
+                font-size: 25px;
+                color: $white;
+                margin-left: -14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  ul.footer-menu {
+    list-style: none;
+    display: flex;
+    li{
+      margin: 11px 6px;
+      font-size: 18px;
+      font-family: cabin;
+      a {
+        color: #fff;
+        font-size: 18px;
+        margin-left: 0px;
+      }
+    }
+  }
+
+  ul.list-inline.social-items {
+    padding-top: 4px;
+    padding-bottom: 24px;
+  }
+
+}
+
+
+
+
+@media (min-width: 1200px){
+  ul.footer-menu {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin: 0px 16px;
+    }
+  }
+
+  footer .social-icons ul li a i.fa {
+
+    margin-left: -24px;
+    margin-right: 34px;
+  }
+
+  footer .social-icons ul li a {
+    color: #fff;
+    font-size: 36px;
+    margin-left: 26px;
+  }
+
+}

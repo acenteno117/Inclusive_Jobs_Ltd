@@ -1,0 +1,3813 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap");
+/* line 5, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_base.scss */
+body {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #222222;
+}
+
+/* line 14, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_base.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #4fb949;
+  text-transform: none;
+}
+
+/* line 38, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_base.scss */
+h1, .internals-titles, .error-card h1, #join-entire-page-content .join-form-header, #jfi-modal-dialog .join-form-header, .jfi-success-container .join-form-header, #cb-legal-content-block h1, #cb-legal-content-block #cookiesPolicy h2, #cb-legal-content-block #cookiesList h2, #cb-legal-content-block #cookiesPolicy h3, #cb-legal-content-block #cookiesList h3, #browse-by-container #browse-by-header, #browse-by-container #browse-by-header p, #after-apply-thank-you-header, #edit-preference-view #edit-preference-title, #subscription-title, .search-results-title, .jdp-title-inner-container .jdp-title-block-position .jdp-job-title {
+  text-transform: uppercase;
+}
+
+/* line 42, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_base.scss */
+p, #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesList p {
+  color: #222222;
+  word-wrap: break-word;
+}
+
+/* line 48, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_base.scss */
+a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #2c2b2b;
+  text-decoration: none;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+  color: #4fb949;
+}
+
+/* line 7, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.hide-text {
+  overflow: hidden;
+  padding: 0;
+  /* 1 */
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+/* line 31, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 43, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.text-white {
+  color: #fff;
+}
+
+/* line 47, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.bold-text {
+  font-weight: bold;
+}
+
+/* line 51, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.full-wd {
+  width: 100%;
+}
+
+/* line 55, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.no-margin {
+  margin: 0px;
+}
+
+/* line 59, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 65, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.link-center {
+  text-align: center;
+}
+
+/* line 71, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.visible-4k {
+  display: none !important;
+}
+
+/* line 77, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.featured-jobs {
+  padding-bottom: 50px;
+}
+
+/* line 83, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.no-break {
+  white-space: nowrap;
+}
+
+/* line 89, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.hide-not-ready + .prefooter-not-ready,
+.hide-not-ready + style + .prefooter-not-ready,
+.hide-not-ready + footer > .prefooter-not-ready,
+.hide-not-ready + style + footer > .prefooter-not-ready,
+.home-recent + .prefooter-not-ready {
+  display: none;
+}
+
+/* line 99, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+img {
+  margin: 0 auto;
+}
+
+/* line 105, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+video {
+  width: 100%;
+}
+
+/* line 110, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+.aligned-text {
+  text-align: center;
+}
+
+/* line 114, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+ul.aligned-list {
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 121, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+:lang(en-US) body .hidden-en {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* line 129, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+  .featured-jobs {
+    padding-bottom: 100px;
+  }
+  /* line 132, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+  .aligned-text {
+    text-align: left;
+  }
+  /* line 136, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+  ul.aligned-list {
+    padding-left: 40px;
+    list-style: disc;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1920px) {
+  /* line 147, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+  .hidden-4k {
+    background: none !important;
+    height: auto !important;
+  }
+  /* line 152, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/base/_helpers.scss */
+  .visible-4k {
+    display: block !important;
+  }
+}
+
+@-webkit-keyframes animationRight {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes animationRight {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* line 8, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: none;
+}
+
+/* line 14, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.top-social {
+  background-color: #333;
+}
+
+/* line 17, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.top-social .top-header {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: table;
+  height: 40px;
+}
+
+/* line 23, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.top-social .top-header .join-top {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+/* line 29, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.top-social .top-header .social-icons {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 43, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default {
+  background-color: transparent;
+  border-color: inherit;
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  min-height: 0px;
+}
+
+/* line 52, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-header {
+  background-color: #fff;
+  height: auto;
+  margin: 0px 0px;
+}
+
+/* line 58, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-header .navbar-brand {
+  max-width: 200px;
+  height: auto;
+  padding: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 67, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-header .navbar-brand img {
+  width: 100%;
+}
+
+/* line 76, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  margin: 0px;
+  top: 8px;
+  right: 15px;
+  border: none;
+  padding: 9px 0px;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+/* line 91, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle.collapsed {
+  background-color: transparent;
+}
+
+/* line 94, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+  background-color: #011c4b;
+}
+
+/* line 97, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle.collapsed .icon-bar.top-bar {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+
+/* line 102, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle.collapsed .icon-bar.middle-bar {
+  opacity: 1;
+}
+
+/* line 106, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle.collapsed .icon-bar.bottom-bar {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+
+/* line 115, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #4fb949;
+  height: 3px;
+  width: 25px;
+}
+
+/* line 123, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle .icon-bar.top-bar {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 10% 10%;
+  transform-origin: 10% 10%;
+}
+
+/* line 130, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle .icon-bar.middle-bar {
+  opacity: 0;
+}
+
+/* line 134, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle .icon-bar.bottom-bar {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 10% 90%;
+  transform-origin: 10% 90%;
+}
+
+/* line 147, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-collapse {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background-color: #011c4b;
+}
+
+/* line 167, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: transparent;
+}
+
+/* line 174, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li a, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: none;
+  word-break: break-word;
+  white-space: normal;
+  line-height: 1.3;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.navbar-default ul.navbar-nav li a:hover, .navbar-default ul.navbar-nav li a:active, .navbar-default ul.navbar-nav li a:focus, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:focus, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:focus {
+  background-color: #4fb949;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 197, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.active > a {
+  background-color: #439d3e;
+  color: #fff;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.navbar-default ul.navbar-nav li.active > a:hover, .navbar-default ul.navbar-nav li.active > a:active, .navbar-default ul.navbar-nav li.active > a:focus {
+  background-color: #439d3e;
+  color: #fff;
+}
+
+/* line 215, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown i.fa.fa-angle-down {
+  padding-left: 5px;
+}
+
+/* line 218, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown i.fa.fa-angle-down:before {
+  content: "\f107";
+}
+
+/* line 227, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown.open > a {
+  background-color: #4fb949;
+  color: #fff;
+  border-color: transparent;
+}
+
+/* line 239, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu {
+  background-color: #439d3e;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 0px;
+}
+
+/* line 258, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a {
+  color: #fff;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a:focus, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a:focus {
+  background-color: #4fb949;
+  color: #fff;
+}
+
+/* line 269, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a {
+  background-color: #4fb949;
+  color: #fff;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a:hover, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a:active, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a:focus, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a:hover, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a:active, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a:focus {
+  background-color: #439d3e;
+  color: #fff;
+}
+
+/* line 293, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.search-toggle-button-mobile {
+  color: #4fb949;
+  font-size: 18px;
+  font-weight: bold;
+  width: inherit;
+  border-radius: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 8px;
+  right: 55px;
+  z-index: 3;
+}
+
+/* line 295, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+.search-toggle-button-mobile.collapsed {
+  color: #4fb949;
+}
+
+/* line 311, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+a.text-green {
+  color: #4fb949;
+}
+
+@media (min-width: 768px) {
+  /* line 320, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .top-social .top-header {
+    height: 60px;
+  }
+  /* line 336, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .top-navbar .navbar-brand-top {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  /* line 341, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .top-navbar .navbar-brand-top .navbar-brand-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  /* line 353, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .top-navbar .navbar-brand-top .navbar-brand-row .logo-top {
+    text-align: left;
+    text-align: left;
+    position: absolute;
+    top: 45px;
+    z-index: 999;
+  }
+  /* line 361, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .top-navbar .navbar-brand-top .navbar-brand-row .join-top {
+    text-align: right;
+  }
+  /* line 376, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default {
+    background-color: transparent;
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  /* line 383, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default .navbar-header {
+    background-color: transparent;
+    float: none;
+  }
+  /* line 388, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default .navbar-header .navbar-brand {
+    max-width: none;
+    margin: 0px;
+  }
+  /* line 397, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default .navbar-collapse {
+    background-color: #fff;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  /* line 415, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    float: none;
+  }
+  /* line 418, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li {
+    display: block;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    border-right: none;
+  }
+  /* line 424, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li:first-child {
+    border-right: none;
+  }
+  /* line 437, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li a, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a {
+    font-size: 12px;
+    color: #011c4b;
+    word-break: normal;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  /* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+  .navbar-default ul.navbar-nav li a:hover, .navbar-default ul.navbar-nav li a:active, .navbar-default ul.navbar-nav li a:focus, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:focus, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:focus {
+    background-color: transparent;
+    color: #4fb949;
+    text-decoration: none;
+  }
+  /* line 456, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.active > a {
+    background-color: transparent;
+    color: #4fb949;
+  }
+  /* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+  .navbar-default ul.navbar-nav li.active > a:hover, .navbar-default ul.navbar-nav li.active > a:active, .navbar-default ul.navbar-nav li.active > a:focus {
+    background-color: transparent;
+    color: #252525;
+  }
+  /* line 489, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open > a {
+    background-color: transparent;
+    color: #4fb949;
+  }
+  /* line 500, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu {
+    background-color: #61c05b;
+    text-align: left;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  /* line 516, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li {
+    border: none;
+  }
+  /* line 520, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a {
+    color: #fff;
+    word-break: break-word;
+    white-space: normal;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 557, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default .navbar-header {
+    float: none;
+  }
+  /* line 563, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav {
+    float: none;
+  }
+  /* line 567, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li a, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 596, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default .navbar-header {
+    float: left;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    right: auto;
+    z-index: 999;
+    left: auto;
+    margin-left: 33px;
+  }
+  /* line 610, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav {
+    padding-left: 30px;
+  }
+  /* line 615, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li a, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a {
+    font-size: 18px;
+    font-family: cabin;
+    font-weight: normal;
+    padding: 10px 20px;
+  }
+}
+
+/* line 21, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+.footer .copy a {
+  background-color: #333;
+}
+
+/* line 29, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+ul.footer-menu {
+  list-style: none;
+}
+
+/* line 33, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+ul.footer-menu li {
+  margin: 11px 15px;
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-family: cabin;
+}
+
+/* line 41, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+.copy {
+  padding-top: 30px;
+  padding-left: 27px;
+  margin-bottom: 30px;
+}
+
+/* line 46, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+.copy p a, .copy #cb-legal-content-block #cookiesPolicy p a, #cb-legal-content-block #cookiesPolicy .copy p a, .copy #cb-legal-content-block #cookiesList p a, #cb-legal-content-block #cookiesList .copy p a {
+  color: #fff;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 18px;
+  font-family: cabin;
+}
+
+/* line 56, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+footer {
+  background-color: #2C2B2B;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* line 61, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+footer .social-icons {
+  display: inline;
+}
+
+/* line 65, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+footer .social-icons ul li a {
+  color: #fff;
+  font-size: 36px;
+  margin-left: 32px;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+footer .social-icons ul li a i:hover, footer .social-icons ul li a i:active, footer .social-icons ul li a i:focus {
+  color: #4fb949;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+/* line 80, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+footer .logos-footer {
+  padding-top: 114px;
+}
+
+/* line 82, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+footer .logos-footer img {
+  padding: 15px 0px;
+}
+
+/* line 91, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+footer .nav-footer ul li a {
+  color: #fff;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+footer .nav-footer ul li a:hover, footer .nav-footer ul li a:active, footer .nav-footer ul li a:focus {
+  color: #4fb949;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+/* line 106, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+ul.list-inline.social-items {
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+/* line 111, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+p.text-center.text-copy, #cb-legal-content-block #cookiesPolicy p.text-center.text-copy, #cb-legal-content-block #cookiesList p.text-center.text-copy {
+  margin-bottom: 4px;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+p.text-center a:hover, #cb-legal-content-block #cookiesPolicy p.text-center a:hover, #cb-legal-content-block #cookiesList p.text-center a:hover, p.text-center a:active, #cb-legal-content-block #cookiesPolicy p.text-center a:active, #cb-legal-content-block #cookiesList p.text-center a:active, p.text-center a:focus, #cb-legal-content-block #cookiesPolicy p.text-center a:focus, #cb-legal-content-block #cookiesList p.text-center a:focus {
+  color: #4fb949;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  /* line 126, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  .footer.social-icons {
+    display: inline;
+  }
+  /* line 132, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .logos-footer {
+    padding: 30px 0px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  /* line 140, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .logos-footer img {
+    margin-left: 0;
+    margin-right: 10px;
+    max-width: 280px;
+  }
+  /* line 144, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .logos-footer img :last-child {
+    margin-right: 0px;
+  }
+  /* line 151, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .social-icons {
+    padding: 50px 0px;
+  }
+  /* line 155, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .social-icons ul li {
+    padding-right: 8px;
+  }
+  /* line 161, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .social-icons ul li a i.fa {
+    font-size: 25px;
+    color: #fff;
+  }
+  /* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+  footer .social-icons ul li a i.fa:hover, footer .social-icons ul li a i.fa:active, footer .social-icons ul li a i.fa:focus {
+    color: #4fb949;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+  }
+  /* line 177, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  .copy {
+    padding-top: 52px;
+    padding-left: 27px;
+    margin-bottom: 30px;
+  }
+  /* line 182, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  .copy p a, .copy #cb-legal-content-block #cookiesPolicy p a, #cb-legal-content-block #cookiesPolicy .copy p a, .copy #cb-legal-content-block #cookiesList p a, #cb-legal-content-block #cookiesList .copy p a {
+    margin-right: 0px;
+  }
+  /* line 190, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .social-icons ul li a {
+    color: #fff;
+    font-size: 36px;
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 208, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .logos-footer {
+    padding: 30px 0px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* line 215, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .logos-footer img {
+    margin-left: 0;
+    margin-right: 50px;
+  }
+  /* line 218, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .logos-footer img :last-child {
+    margin-right: 0px;
+  }
+  /* line 225, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .social-icons {
+    padding: 50px 0px;
+    display: block;
+  }
+  /* line 232, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .social-icons ul li a i.fa {
+    font-size: 25px;
+    color: #fff;
+    margin-left: -14px;
+  }
+  /* line 243, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  ul.footer-menu {
+    list-style: none;
+    display: flex;
+  }
+  /* line 246, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  ul.footer-menu li {
+    margin: 11px 6px;
+    font-size: 18px;
+    font-family: cabin;
+  }
+  /* line 250, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  ul.footer-menu li a {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 0px;
+  }
+  /* line 258, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  ul.list-inline.social-items {
+    padding-top: 4px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 269, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  ul.footer-menu {
+    list-style: none;
+    display: flex;
+  }
+  /* line 273, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  ul.footer-menu li {
+    margin: 0px 16px;
+  }
+  /* line 278, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .social-icons ul li a i.fa {
+    margin-left: -24px;
+    margin-right: 34px;
+  }
+  /* line 284, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/layout/_footer.scss */
+  footer .social-icons ul li a {
+    color: #fff;
+    font-size: 36px;
+    margin-left: 26px;
+  }
+}
+
+/* line 40, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_button.scss */
+.btn-join, .btn-join.active.focus, .btn-join.active:focus, .btn-join.active:hover, .btn-join.focus:active, .btn-join:active:focus, .btn-join:active:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #4fb949;
+  padding: 15px 15px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.3;
+  outline: none;
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  margin-left: 45px;
+  margin-right: 45px;
+  position: relative;
+  border: 3px solid white;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.btn-join:hover, .btn-join.active:hover, .btn-join:hover:active, .btn-join:active, .btn-join.focus:active, .btn-join:active:focus, .btn-join:active:hover, .btn-join:focus, .btn-join.active:focus, .btn-join:focus:active {
+  background-color: #4fb949;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.btn-join:hover, .btn-join.active:hover, .btn-join:hover:active, .btn-join:active, .btn-join.focus:active, .btn-join:active:focus, .btn-join:active:hover, .btn-join:focus, .btn-join.active:focus, .btn-join:focus:active {
+  border: 3px solid white;
+}
+
+/* line 60, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_button.scss */
+.primary-button, .btn-default, .btn-general {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #4fb949;
+  padding: 15px 15px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.3;
+  outline: none;
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.primary-button:hover, .primary-button:active, .primary-button:focus, .btn-default:hover, .btn-default:active, .btn-default:focus, .btn-general:hover, .btn-general:active, .btn-general:focus {
+  background-color: #4fb949;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+}
+
+/* line 64, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_button.scss */
+.primary-button.active.focus, .primary-button.active:focus, .primary-button.active:hover, .primary-button:active.focus, .primary-button:active:focus, .primary-button:active:hover, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .btn-general.active.focus, .btn-general.active:focus, .btn-general.active:hover, .btn-general:active.focus, .btn-general:active:focus, .btn-general:active:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #4fb949;
+  padding: 15px 15px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.3;
+  outline: none;
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.primary-button.active.focus:hover, .primary-button.active.focus:active, .primary-button.active.focus:focus, .primary-button.active:focus:hover, .primary-button.active:focus:active, .primary-button.active:focus:focus, .primary-button.active:hover:hover, .primary-button.active:hover:active, .primary-button.active:hover:focus, .primary-button:active.focus:hover, .primary-button:active.focus:active, .primary-button:active.focus:focus, .primary-button:active:focus:hover, .primary-button:active:focus:active, .primary-button:active:focus:focus, .primary-button:active:hover:hover, .primary-button:active:hover:active, .primary-button:active:hover:focus, .btn-default.active.focus:hover, .btn-default.active.focus:active, .btn-default.active.focus:focus, .btn-default.active:focus:hover, .btn-default.active:focus:active, .btn-default.active:focus:focus, .btn-default.active:hover:hover, .btn-default.active:hover:active, .btn-default.active:hover:focus, .btn-default:active.focus:hover, .btn-default:active.focus:active, .btn-default:active.focus:focus, .btn-default:active:focus:hover, .btn-default:active:focus:active, .btn-default:active:focus:focus, .btn-default:active:hover:hover, .btn-default:active:hover:active, .btn-default:active:hover:focus, .btn-general.active.focus:hover, .btn-general.active.focus:active, .btn-general.active.focus:focus, .btn-general.active:focus:hover, .btn-general.active:focus:active, .btn-general.active:focus:focus, .btn-general.active:hover:hover, .btn-general.active:hover:active, .btn-general.active:hover:focus, .btn-general:active.focus:hover, .btn-general:active.focus:active, .btn-general:active.focus:focus, .btn-general:active:focus:hover, .btn-general:active:focus:active, .btn-general:active:focus:focus, .btn-general:active:hover:hover, .btn-general:active:hover:active, .btn-general:active:hover:focus {
+  background-color: #4fb949;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+}
+
+/* line 8, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+/* line 14, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+
+/* line 20, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+/* line 26, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 39, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+.custom-carousel {
+  background-color: #fff;
+}
+
+/* line 42, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+.custom-carousel .indicators-container {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 10px;
+  top: auto;
+  margin: 0 auto;
+}
+
+/* line 51, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+.custom-carousel .indicators-container .carousel-indicators {
+  text-align: center;
+  width: auto;
+  margin: 0px 15px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/* line 62, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+.custom-carousel .indicators-container .carousel-indicators li {
+  background-color: transparent;
+  border: 1px solid #4fb949;
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+  border-radius: 100%;
+  margin: 0px 5px;
+  -webkit-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.custom-carousel .indicators-container .carousel-indicators li:hover, .custom-carousel .indicators-container .carousel-indicators li:active, .custom-carousel .indicators-container .carousel-indicators li:focus {
+  background-color: rgba(79, 185, 73, 0.5);
+}
+
+/* line 11, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.custom-carousel .indicators-container .carousel-indicators .active, .custom-carousel .indicators-container .carousel-indicators .active:hover, .custom-carousel .indicators-container .carousel-indicators .active:active, .custom-carousel .indicators-container .carousel-indicators .active:focus {
+  background-color: #4fb949;
+  border: 1px solid #4fb949;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 151, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+  .custom-carousel .indicators-container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 164, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+  .custom-carousel .indicators-container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 176, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_carousel.scss */
+  .custom-carousel .indicators-container {
+    width: 1170px;
+  }
+}
+
+/*** Styles related to social media icons
+* Specific styles for social items on header or footer please
+* use header o footer file
+***/
+/* line 7, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_social-icons.scss */
+.social-icons {
+  display: inline-block;
+}
+
+/* line 13, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_social-icons.scss */
+.social-items {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* line 32, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_social-icons.scss */
+.social-items li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 37, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_social-icons.scss */
+.social-items li:first-child {
+  padding-left: 0px;
+}
+
+/* line 42, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_social-icons.scss */
+.social-items li:last-child {
+  padding-right: 0px;
+}
+
+/* line 50, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_social-icons.scss */
+.custom-social {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
+  background-color: #4fb949;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  border: 1px solid #2c2b2b;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.custom-social:hover, .custom-social:active, .custom-social:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4fb949;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.facebook-icon:hover, .facebook-icon:active, .facebook-icon:focus {
+  color: #fff;
+  background: #3d5b9b;
+  border: 1px solid #3d5b9b;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.twitter-icon:hover, .twitter-icon:active, .twitter-icon:focus {
+  color: #fff;
+  background: #61a9db;
+  border: 1px solid #61a9db;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.linkedin-icon:hover, .linkedin-icon:active, .linkedin-icon:focus {
+  color: #fff;
+  background: #0e76b5;
+  border: 1px solid #0e76b5;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.youtube-icon:hover, .youtube-icon:active, .youtube-icon:focus {
+  color: #fff;
+  background: #e52e2a;
+  border: 1px solid #e52e2a;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.instagram-icon:hover, .instagram-icon:active, .instagram-icon:focus {
+  color: #fff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  border: 1px solid #fd5949;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.pinterest-icon:hover, .pinterest-icon:active, .pinterest-icon:focus {
+  color: #fff;
+  background: #cb2027;
+  border: 1px solid #cb2027;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.rss-icon:hover, .rss-icon:active, .rss-icon:focus {
+  color: #fff;
+  background: linear-gradient(135deg, #ff4d03 20%, #ffb67c 40%, #ff4d03 100%);
+  border: 1px solid #ff4d03;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.glassdoor-icon:hover, .glassdoor-icon:active, .glassdoor-icon:focus {
+  color: #fff;
+  background: #7cb229;
+  border: 1px solid #7cb229;
+}
+
+/* line 6, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+.search-mobile, .search-desktop-home, .search-desktop, #search-widget {
+  background-color: #011c4b;
+}
+
+/* line 10, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+.search-mobile .search-box, .search-desktop-home .search-box, .search-desktop .search-box, #search-widget .search-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 22, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar, .search-desktop-home #search-bar, .search-desktop #search-bar, #search-widget #search-bar {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* line 27, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar .search-bar-element, .search-desktop-home #search-bar .search-bar-element, .search-desktop #search-bar .search-bar-element, #search-widget #search-bar .search-bar-element {
+  padding-bottom: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 32, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar .search-bar-element input, .search-desktop-home #search-bar .search-bar-element input, .search-desktop #search-bar .search-bar-element input, #search-widget #search-bar .search-bar-element input {
+  font-size: 16px;
+  color: #222222;
+  height: 40px;
+  border: none;
+  border-radius: 0px;
+  text-align: center;
+}
+
+/* line 41, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar .search-bar-element input::-ms-clear, .search-desktop-home #search-bar .search-bar-element input::-ms-clear, .search-desktop #search-bar .search-bar-element input::-ms-clear, #search-widget #search-bar .search-bar-element input::-ms-clear {
+  display: none;
+}
+
+/* line 108, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.search-mobile #search-bar .search-bar-element input::-webkit-input-placeholder, .search-desktop-home #search-bar .search-bar-element input::-webkit-input-placeholder, .search-desktop #search-bar .search-bar-element input::-webkit-input-placeholder, #search-widget #search-bar .search-bar-element input::-webkit-input-placeholder {
+  color: #222222;
+}
+
+/* line 109, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.search-mobile #search-bar .search-bar-element input:-moz-placeholder, .search-desktop-home #search-bar .search-bar-element input:-moz-placeholder, .search-desktop #search-bar .search-bar-element input:-moz-placeholder, #search-widget #search-bar .search-bar-element input:-moz-placeholder {
+  color: #222222;
+}
+
+/* line 110, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.search-mobile #search-bar .search-bar-element input::-moz-placeholder, .search-desktop-home #search-bar .search-bar-element input::-moz-placeholder, .search-desktop #search-bar .search-bar-element input::-moz-placeholder, #search-widget #search-bar .search-bar-element input::-moz-placeholder {
+  color: #222222;
+}
+
+/* line 111, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.search-mobile #search-bar .search-bar-element input:-ms-input-placeholder, .search-desktop-home #search-bar .search-bar-element input:-ms-input-placeholder, .search-desktop #search-bar .search-bar-element input:-ms-input-placeholder, #search-widget #search-bar .search-bar-element input:-ms-input-placeholder {
+  color: #222222;
+}
+
+/* line 55, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar .search-bar-element.search-widget-container .search-btn, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn {
+  display: block;
+  text-transform: uppercase;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.search-mobile #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:hover, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-mobile #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:active, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-mobile #search-bar .search-bar-element.search-widget-container .search-btn:focus, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn:focus, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:focus, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:focus {
+  background-color: #402977;
+}
+
+/* line 73, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+.search-mobile .link-center, .search-desktop-home .link-center, .search-desktop .link-center, #search-widget .link-center {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+/* line 79, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+.search-mobile .link-center .view-all-jobs, .search-desktop-home .link-center .view-all-jobs, .search-desktop .link-center .view-all-jobs, #search-widget .link-center .view-all-jobs {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 94, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+.search-desktop-home, .search-desktop {
+  background-color: transparent;
+}
+
+/* line 107, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+#search-widget {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  background-color: #011c4b;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  /* line 140, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-mobile, .search-desktop-home, .search-desktop, #search-widget {
+    float: none;
+    background-size: cover;
+    padding: 0px;
+  }
+  /* line 147, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home, .search-desktop, #search-widget {
+    position: relative;
+    background: #011c4b;
+  }
+  /* line 152, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home h1, .search-desktop h1, #search-widget h1 {
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+    padding-bottom: 10px;
+  }
+  /* line 160, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .search-box, .search-desktop .search-box, #search-widget .search-box {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  /* line 165, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .search-box .search-box-content, .search-desktop .search-box .search-box-content, #search-widget .search-box .search-box-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* line 185, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar, .search-desktop #search-bar, #search-widget #search-bar {
+    max-width: none;
+    display: table;
+  }
+  /* line 196, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar .search-bar-element, .search-desktop #search-bar .search-bar-element, #search-widget #search-bar .search-bar-element {
+    display: table-cell;
+    vertical-align: bottom;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+  /* line 215, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar .search-bar-element input, .search-desktop #search-bar .search-bar-element input, #search-widget #search-bar .search-bar-element input {
+    text-align: left;
+  }
+  /* line 222, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar .search-bar-element label, .search-desktop #search-bar .search-bar-element label, #search-widget #search-bar .search-bar-element label {
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  /* line 229, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar .search-bar-element.search-widget-container, .search-desktop #search-bar .search-bar-element.search-widget-container, #search-widget #search-bar .search-bar-element.search-widget-container {
+    padding-bottom: 0px;
+    padding-right: 0px;
+  }
+  /* line 240, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn {
+    width: 170px;
+  }
+  /* line 261, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .link-center, .search-desktop .link-center, #search-widget .link-center {
+    padding-top: 10px;
+  }
+  /* line 274, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop, #search-widget {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    background-color: #011c4b;
+  }
+  /* line 283, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop h1, #search-widget h1 {
+    color: #fff;
+    text-align: left;
+  }
+  /* line 291, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop .search-box .search-box-content, #search-widget .search-box .search-box-content {
+    background-color: transparent;
+  }
+  /* line 338, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop #search-bar .search-bar-element label, #search-widget #search-bar .search-bar-element label {
+    color: #fff;
+  }
+  /* line 353, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn {
+    background-color: #212020;
+  }
+  /* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+  .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:focus, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:hover, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:active, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:focus {
+    background-color: #161616;
+  }
+  /* line 373, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  .search-desktop .link-center .view-all-jobs, #search-widget .link-center .view-all-jobs {
+    color: #fff;
+  }
+  /* line 383, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/components/_search-box.scss */
+  #search-widget {
+    padding: 20px 15px 30px 15px;
+  }
+}
+
+/* line 5, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.landing-banner {
+  background: url("../img/banner-mobile.png") no-repeat center center;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+/* line 13, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.landing-banner .text-banner {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 16, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.landing-banner .text-banner .btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid white;
+  display: block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 13px 0px;
+  margin-top: 10px;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.landing-banner .text-banner .btn-primary:hover, .landing-banner .text-banner .btn-primary:active, .landing-banner .text-banner .btn-primary:focus {
+  background-color: #4fb949;
+}
+
+/* line 36, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.landing-banner .text-banner-paragraph {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 40, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.landing-banner .text-banner-paragraph h2 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  line-height: 1.3;
+}
+
+/* line 50, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.landing-banner .text-banner-paragraph a.btn.btn-primary.green {
+  background-color: #4fb949;
+  border-radius: 25px;
+  border: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Cabin", sans-serif;
+  margin-top: 10px;
+  padding: 15px 75px;
+  margin-bottom: 20px;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.landing-banner .text-banner-paragraph a.btn.btn-primary.green:hover, .landing-banner .text-banner-paragraph a.btn.btn-primary.green:active, .landing-banner .text-banner-paragraph a.btn.btn-primary.green:focus {
+  background-color: #011c4b;
+}
+
+/* line 67, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.landing-banner .text-banner-paragraph a.btn.btn-primary.green:last-child {
+  margin-bottom: 20px;
+}
+
+/* line 91, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.receive-bg {
+  background: #4fb949;
+  text-align: center;
+}
+
+/* line 94, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.receive-bg p, .receive-bg #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .receive-bg p, .receive-bg #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .receive-bg p {
+  color: white;
+  font-family: cabin;
+  font-size: 18px;
+  padding-bottom: 6px;
+}
+
+/* line 99, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.receive-bg p span, .receive-bg #cb-legal-content-block #cookiesPolicy p span, #cb-legal-content-block #cookiesPolicy .receive-bg p span, .receive-bg #cb-legal-content-block #cookiesList p span, #cb-legal-content-block #cookiesList .receive-bg p span {
+  font-size: 60px;
+  color: #fff;
+  display: block;
+  line-height: 60px;
+  font-family: cabin;
+  font-weight: bold;
+}
+
+/* line 115, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .overview-info p, .home-info .overview-info #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-info .overview-info p, .home-info .overview-info #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-info .overview-info p {
+  line-height: 27px;
+  padding: 8px 0px;
+}
+
+/* line 120, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .overview-info .menu-info-mobile h3 {
+  font-size: 24px;
+  color: #011c4b;
+  font-family: cabin;
+  padding-bottom: 7px;
+  padding-top: 0px;
+}
+
+/* line 127, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .overview-info .menu-info-mobile ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 131, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .overview-info .menu-info-mobile ul li p, .home-info .overview-info .menu-info-mobile ul li #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-info .overview-info .menu-info-mobile ul li p, .home-info .overview-info .menu-info-mobile ul li #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-info .overview-info .menu-info-mobile ul li p {
+  display: inline-flex;
+}
+
+/* line 133, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .overview-info .menu-info-mobile ul li p i, .home-info .overview-info .menu-info-mobile ul li #cb-legal-content-block #cookiesPolicy p i, #cb-legal-content-block #cookiesPolicy .home-info .overview-info .menu-info-mobile ul li p i, .home-info .overview-info .menu-info-mobile ul li #cb-legal-content-block #cookiesList p i, #cb-legal-content-block #cookiesList .home-info .overview-info .menu-info-mobile ul li p i {
+  padding-right: 20px;
+  color: #4fb949;
+  padding-top: 4px;
+}
+
+/* line 149, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .overview-info h3 {
+  font-family: cabin;
+  font-weight: bold;
+  font-size: 36px;
+  color: #011c4b;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+/* line 160, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .overview-info p, .home-info .overview-info #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-info .overview-info p, .home-info .overview-info #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-info .overview-info p {
+  font-family: cabin;
+}
+
+/* line 166, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .featured-careers h2 {
+  color: #011c4b;
+  font-family: cabin;
+  font-weight: bold;
+  text-align: center;
+  font-size: 36px;
+}
+
+/* line 176, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .featured-careers .fp-container {
+  position: relative;
+  text-align: center;
+  margin-bottom: 52px;
+  padding-top: 30px;
+}
+
+/* line 184, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .featured-careers .fp-buttom {
+  background: #402977;
+  text-align: center;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15.5px 0px;
+  position: absolute;
+  z-index: 999;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: -31px;
+}
+
+/* line 199, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .featured-careers .fp-buttom p, .home-info .featured-careers .fp-buttom #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-info .featured-careers .fp-buttom p, .home-info .featured-careers .fp-buttom #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-info .featured-careers .fp-buttom p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: cabin;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 211, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-info .aside-image {
+  padding-bottom: 52px;
+}
+
+/* line 221, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.recent-bg .wrapper .body .table {
+  margin-bottom: -26px;
+}
+
+/* line 224, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.recent-bg .wrapper .body .table tr {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* line 228, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.recent-bg .wrapper .body .table tr td {
+  display: block;
+  border: none;
+}
+
+/* line 233, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.recent-bg .wrapper .body .table tr .job_widget_title {
+  display: block;
+  border: 2px solid #011c4b;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  padding-right: 65px;
+  position: relative;
+  text-decoration: none;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.recent-bg .wrapper .body .table tr .job_widget_title:hover, .recent-bg .wrapper .body .table tr .job_widget_title:active, .recent-bg .wrapper .body .table tr .job_widget_title:focus {
+  text-decoration: none;
+}
+
+/* line 246, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.recent-bg .wrapper .body .table tr .job_widget_title:hover:before, .recent-bg .wrapper .body .table tr .job_widget_title:active:before, .recent-bg .wrapper .body .table tr .job_widget_title:focus:before {
+  background-color: #4fb949;
+}
+
+/* line 251, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.recent-bg .wrapper .body .table tr .job_widget_title:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: auto;
+  width: 50px;
+  background-color: #402977;
+  transition: all 0.3s ease;
+}
+
+/* line 264, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.recent-bg .wrapper .body .table tr .job_widget_title:after {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: calc(50% - 21px);
+  bottom: auto;
+  right: 0px;
+  left: auto;
+  width: 50px;
+  text-align: center;
+}
+
+/* line 281, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.recent-bg .wrapper .body .table tr .job_widget_location {
+  display: none;
+}
+
+/* line 11, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.recent-bg .wrapper .body .table tr .job_widget_location, .recent-bg .wrapper .body .table tr .job_widget_location:hover, .recent-bg .wrapper .body .table tr .job_widget_location:active, .recent-bg .wrapper .body .table tr .job_widget_location:focus {
+  text-decoration: none;
+}
+
+/* line 301, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-recent .recent-bg .view-btn {
+  text-align: center;
+  padding: 30px 0px;
+  padding-bottom: 80px;
+}
+
+/* line 305, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-recent .recent-bg .view-btn a {
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  background-color: #402977;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.home-recent .recent-bg .view-btn a:hover, .home-recent .recent-bg .view-btn a:active, .home-recent .recent-bg .view-btn a:focus {
+  border: none;
+  background-color: #4fb949;
+}
+
+/* line 325, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-recent h2 {
+  font-family: cabin;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 36px;
+  color: #402977;
+  font-size: 36px;
+  padding-bottom: 18px;
+}
+
+/* line 342, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+section.home-brands {
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+
+/* line 350, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+section.home-brands .slider-mobile img {
+  padding-bottom: 48px;
+}
+
+/* line 357, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-recent .receive-bg {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* line 360, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-recent .receive-bg .receive-bg-fly {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+/* line 364, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.home-recent .receive-bg .sign-here {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 320px;
+  font-size: 18px;
+  font-family: cabin;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.home-recent .receive-bg .sign-here:hover, .home-recent .receive-bg .sign-here:active, .home-recent .receive-bg .sign-here:focus {
+  background-color: #402977;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 383, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+.green-background {
+  background-color: #4fb949;
+  margin-bottom: 40px;
+}
+
+/* line 388, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+p.text-center, #cb-legal-content-block #cookiesPolicy p.text-center, #cb-legal-content-block #cookiesList p.text-center {
+  color: #fff;
+  padding: 0px;
+  line-height: 2;
+}
+
+@media (min-width: 768px) {
+  /* line 396, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .landing-banner {
+    background: url("../img/banner.png") no-repeat center center;
+    background-size: cover;
+    height: 620px;
+  }
+  /* line 402, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .landing-banner #landing-carousel .item {
+    background: url("../img/banner.png") no-repeat center center;
+    background-size: cover;
+    height: 620px;
+  }
+  /* line 410, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .landing-banner .text-banner-paragraph h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  /* line 417, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .landing-banner .text-banner-paragraph {
+    text-align: center;
+    padding: 128px 0px;
+  }
+  /* line 423, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .landing-banner .text-banner-paragraph a.btn.btn-primary.green {
+    background-color: #4fb949;
+    border-radius: 25px;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 34px;
+    width: 248px;
+    height: 50px;
+    padding: 15px 0px;
+    margin-left: 25px;
+  }
+  /* line 436, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .btn-read {
+    background-color: red;
+  }
+  /* line 440, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .btn-read.collapsed .more {
+    display: block;
+  }
+  /* line 445, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info {
+    padding-bottom: 12px;
+  }
+  /* line 449, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .content-body h2 {
+    margin-top: 0px;
+    color: #011c4b;
+    font-family: cabin;
+    font-size: 24px;
+  }
+  /* line 459, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop ul {
+    list-style: none;
+    padding-left: 2px;
+    padding: 12px 0px;
+  }
+  /* line 464, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop ul li p, .home-info .overview-info .menu-info-desktop ul li #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-info .overview-info .menu-info-desktop ul li p, .home-info .overview-info .menu-info-desktop ul li #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-info .overview-info .menu-info-desktop ul li p {
+    display: inline-flex;
+  }
+  /* line 466, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop ul li p i, .home-info .overview-info .menu-info-desktop ul li #cb-legal-content-block #cookiesPolicy p i, #cb-legal-content-block #cookiesPolicy .home-info .overview-info .menu-info-desktop ul li p i, .home-info .overview-info .menu-info-desktop ul li #cb-legal-content-block #cookiesList p i, #cb-legal-content-block #cookiesList .home-info .overview-info .menu-info-desktop ul li p i {
+    padding-right: 22px;
+    color: #4fb949;
+    margin-top: 4px;
+  }
+  /* line 481, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop {
+    padding: 15px;
+  }
+  /* line 483, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop .btn-read {
+    background-color: #4fb949;
+    border-radius: 25px;
+    width: 167px;
+    height: 50px;
+  }
+  /* line 489, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop .btn-read.collapsed .more {
+    display: block;
+    padding: 7px 0px;
+  }
+  /* line 494, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop .btn-read.collapsed .less {
+    display: none;
+  }
+  /* line 498, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop .btn-read .more {
+    display: none;
+    font-size: 16px;
+    font-family: cabin;
+  }
+  /* line 504, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop .btn-read .less {
+    display: block;
+    padding: 7px 0px;
+    font-size: 16px;
+    font-family: cabin;
+  }
+  /* line 515, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent h2 {
+    text-align: center;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 24px;
+  }
+  /* line 524, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .receive-bg .receive-bg-fly {
+    padding-top: 5px;
+  }
+  /* line 528, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .featured-careers .fp-buttom {
+    max-width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10.5px 0px;
+    position: absolute;
+    z-index: 999;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -31px;
+  }
+  /* line 540, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .featured-careers .fp-buttom p, .home-info .featured-careers .fp-buttom #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-info .featured-careers .fp-buttom p, .home-info .featured-careers .fp-buttom #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-info .featured-careers .fp-buttom p {
+    font-size: 18px;
+  }
+  /* line 546, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .receive-bg {
+    padding-top: 33px;
+  }
+  /* line 549, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .receive-bg p span, .home-recent .receive-bg #cb-legal-content-block #cookiesPolicy p span, #cb-legal-content-block #cookiesPolicy .home-recent .receive-bg p span, .home-recent .receive-bg #cb-legal-content-block #cookiesList p span, #cb-legal-content-block #cookiesList .home-recent .receive-bg p span {
+    display: block;
+  }
+  /* line 556, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .receive-bg .view-btn a {
+    width: 100%;
+  }
+  /* line 564, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info h3 {
+    font-family: cabin;
+    font-weight: bold;
+    font-size: 36px;
+    color: #011c4b;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 52px;
+  }
+  /* line 577, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .featured-careers h2 {
+    text-align: left;
+  }
+  /* line 581, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .aside-image {
+    padding-bottom: 46px;
+    padding-top: 21px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 592, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-brands .control-arrows.left {
+    background: #ececec;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 0;
+    right: auto;
+    bottom: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+  }
+  /* line 604, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-brands .control-arrows.left i {
+    padding: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+  }
+  /* line 614, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-brands .control-arrows.right {
+    background: #ececec;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: auto;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+  }
+  /* line 625, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-brands .control-arrows.right i {
+    padding: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+  }
+  /* line 636, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-brands div#carousel-brands {
+    padding: 50px;
+  }
+  /* line 640, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-brands .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    min-height: 70px;
+  }
+  /* line 648, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  section.home-recent {
+    padding: 12px 10px;
+  }
+  /* line 656, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .featured-careers .fp-buttom {
+    max-width: 184px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15.5px 0px;
+    position: absolute;
+    z-index: 999;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -31px;
+  }
+  /* line 667, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .featured-careers .fp-buttom p, .home-info .featured-careers .fp-buttom #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-info .featured-careers .fp-buttom p, .home-info .featured-careers .fp-buttom #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-info .featured-careers .fp-buttom p {
+    font-size: 18px;
+  }
+  /* line 672, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .featured-careers h2 {
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* line 680, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info {
+    padding-top: 50px;
+  }
+  /* line 684, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info h3 {
+    margin-top: -33px;
+  }
+  /* line 690, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .content-body h2 {
+    font-weight: bold;
+  }
+  /* line 698, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop {
+    padding-top: 26px;
+  }
+  /* line 706, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .recent-bg .wrapper {
+    padding-right: 6px;
+  }
+  /* line 712, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .receive-bg p.text-fly, .receive-bg #cb-legal-content-block #cookiesPolicy p.text-fly, #cb-legal-content-block #cookiesPolicy .receive-bg p.text-fly, .receive-bg #cb-legal-content-block #cookiesList p.text-fly, #cb-legal-content-block #cookiesList .receive-bg p.text-fly {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+  /* line 718, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .receive-bg p.text-fly span, .receive-bg #cb-legal-content-block #cookiesPolicy p.text-fly span, #cb-legal-content-block #cookiesPolicy .receive-bg p.text-fly span, .receive-bg #cb-legal-content-block #cookiesList p.text-fly span, #cb-legal-content-block #cookiesList .receive-bg p.text-fly span {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+  }
+  /* line 730, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .receive-bg .receive-bg-fly {
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  /* line 738, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .receive-bg {
+    padding: 40px 15px 30px 15px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+  /* line 742, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .receive-bg p, .home-recent .receive-bg #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-recent .receive-bg p, .home-recent .receive-bg #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-recent .receive-bg p {
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+  }
+  /* line 746, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .receive-bg p.text-fly, .home-recent .receive-bg #cb-legal-content-block #cookiesPolicy p.text-fly, #cb-legal-content-block #cookiesPolicy .home-recent .receive-bg p.text-fly, .home-recent .receive-bg #cb-legal-content-block #cookiesList p.text-fly, #cb-legal-content-block #cookiesList .home-recent .receive-bg p.text-fly {
+    padding-bottom: 0px;
+    margin-bottom: 36px;
+  }
+  /* line 755, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent h2 {
+    text-align: left;
+    margin-left: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+  }
+  /* line 766, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .recent-bg .wrapper .body .table tr {
+    margin-bottom: 0px;
+  }
+  /* line 768, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .recent-bg .wrapper .body .table tr .job_widget_title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 772, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .recent-bg .wrapper .body .table tr td {
+    padding-bottom: 27px;
+    padding-top: 0px;
+  }
+  /* line 782, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .recent-bg .wrapper .body .table {
+    margin-bottom: -26px;
+    margin-left: -6px;
+  }
+  /* line 787, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .recent-bg .view-btn a {
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #402977;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 827, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .featured-careers .fp-buttom {
+    max-width: 248px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15.5px 0px;
+    position: absolute;
+    z-index: 999;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -31px;
+  }
+  /* line 839, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .featured-careers .fp-buttom p, .home-info .featured-careers .fp-buttom #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-info .featured-careers .fp-buttom p, .home-info .featured-careers .fp-buttom #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-info .featured-careers .fp-buttom p {
+    font-size: 21px;
+  }
+  /* line 844, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .content-body h2 {
+    font-weight: bold;
+    margin-left: -11px;
+  }
+  /* line 848, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  li.items-home {
+    margin-left: -9px;
+  }
+  /* line 853, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-info .overview-info .menu-info-desktop {
+    padding-right: 20px;
+    color: #4fb949;
+    margin-top: 4px;
+  }
+  /* line 860, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .recent-bg .view-btn a {
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #402977;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  /* line 872, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .receive-bg {
+    padding-bottom: 6px;
+    margin-bottom: 34px;
+  }
+  /* line 876, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .home-recent .receive-bg .sign-here {
+    max-width: 360px;
+  }
+  /* line 882, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .recent-bg .wrapper {
+    padding-right: 6px;
+  }
+  /* line 887, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .recent-bg .wrapper .body .table tr td {
+    padding-bottom: 20px;
+  }
+  /* line 889, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_home.scss */
+  .recent-bg .wrapper .body .table tr td:last-child {
+    padding-bottom: 23px;
+  }
+}
+
+/**/
+/**/
+/* line 13, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.internals-section, .legal-page-background {
+  position: relative;
+  background-color: #fff;
+  padding: 30px 0px;
+  padding-bottom: 50px;
+}
+
+/* line 22, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.internals-buttons, #join-entire-page-content #join-button-mobile, #join-entire-page-content #join-button, #join-entire-page-content #jfi-apply, #jfi-modal-dialog #join-button-mobile, #jfi-modal-dialog #join-button, #jfi-modal-dialog #jfi-apply, .jfi-success-container #join-button-mobile, .jfi-success-container #join-button, .jfi-success-container #jfi-apply, #job-results .primary-button.search-jobs-button-404, #edit-preference-view #edit-preference-form #edit-preference-update-btn, #edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link, #subscription-form #subscription-save-btn, .jrp-pagination-row .mobile-pagination .next-mobile-page,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page, #jdp-apply-button-top, #jdp-apply-button-bottom, #jdp-apply-button-top-mobile, #jdp-apply-button-bottom-mobile {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #4fb949;
+  padding: 15px 15px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.3;
+  outline: none;
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  margin-left: 45px;
+  margin-right: 45px;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 250px;
+  display: block;
+  white-space: normal;
+  line-height: 1.3;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.internals-buttons:hover, #join-entire-page-content #join-button-mobile:hover, #join-entire-page-content #join-button:hover, #join-entire-page-content #jfi-apply:hover, #jfi-modal-dialog #join-button-mobile:hover, #jfi-modal-dialog #join-button:hover, #jfi-modal-dialog #jfi-apply:hover, .jfi-success-container #join-button-mobile:hover, .jfi-success-container #join-button:hover, .jfi-success-container #jfi-apply:hover, #job-results .primary-button.search-jobs-button-404:hover, #edit-preference-view #edit-preference-form #edit-preference-update-btn:hover, #edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link:hover, #subscription-form #subscription-save-btn:hover, .jrp-pagination-row .mobile-pagination .next-mobile-page:hover,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:hover, #jdp-apply-button-top:hover, #jdp-apply-button-bottom:hover, #jdp-apply-button-top-mobile:hover, #jdp-apply-button-bottom-mobile:hover, .internals-buttons:active, #join-entire-page-content #join-button-mobile:active, #join-entire-page-content #join-button:active, #join-entire-page-content #jfi-apply:active, #jfi-modal-dialog #join-button-mobile:active, #jfi-modal-dialog #join-button:active, #jfi-modal-dialog #jfi-apply:active, .jfi-success-container #join-button-mobile:active, .jfi-success-container #join-button:active, .jfi-success-container #jfi-apply:active, #job-results .primary-button.search-jobs-button-404:active, #edit-preference-view #edit-preference-form #edit-preference-update-btn:active, #edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link:active, #subscription-form #subscription-save-btn:active, .jrp-pagination-row .mobile-pagination .next-mobile-page:active,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:active, #jdp-apply-button-top:active, #jdp-apply-button-bottom:active, #jdp-apply-button-top-mobile:active, #jdp-apply-button-bottom-mobile:active, .internals-buttons:focus, #join-entire-page-content #join-button-mobile:focus, #join-entire-page-content #join-button:focus, #join-entire-page-content #jfi-apply:focus, #jfi-modal-dialog #join-button-mobile:focus, #jfi-modal-dialog #join-button:focus, #jfi-modal-dialog #jfi-apply:focus, .jfi-success-container #join-button-mobile:focus, .jfi-success-container #join-button:focus, .jfi-success-container #jfi-apply:focus, #job-results .primary-button.search-jobs-button-404:focus, #edit-preference-view #edit-preference-form #edit-preference-update-btn:focus, #edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link:focus, #subscription-form #subscription-save-btn:focus, .jrp-pagination-row .mobile-pagination .next-mobile-page:focus,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:focus, #jdp-apply-button-top:focus, #jdp-apply-button-bottom:focus, #jdp-apply-button-top-mobile:focus, #jdp-apply-button-bottom-mobile:focus {
+  background-color: #4fb949;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+}
+
+/* line 41, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.internals-titles, .error-card h1, #join-entire-page-content .join-form-header, #jfi-modal-dialog .join-form-header, .jfi-success-container .join-form-header, #cb-legal-content-block h1, #cb-legal-content-block #cookiesPolicy h2, #cb-legal-content-block #cookiesList h2, #cb-legal-content-block #cookiesPolicy h3, #cb-legal-content-block #cookiesList h3, #browse-by-container #browse-by-header, #browse-by-container #browse-by-header p, #after-apply-thank-you-header, #edit-preference-view #edit-preference-title, #subscription-title, .search-results-title, .jdp-title-inner-container .jdp-title-block-position .jdp-job-title {
+  font-size: 24px !important;
+  color: #011c4b !important;
+  margin-top: 0px !important;
+  padding-bottom: 15px !important;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/**/
+/**/
+/* line 64, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field, .formly-field-googleAutocomplete {
+  position: relative;
+}
+
+/* line 68, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions, .search-bar-element.search-field-container.search-location-field #suggestions-join-form, .formly-field-googleAutocomplete #suggestions, .formly-field-googleAutocomplete #suggestions-join-form {
+  position: absolute;
+  left: 0px !important;
+  right: 0px !important;
+  width: 100% !important;
+  z-index: 100 !important;
+  list-style: none !important;
+}
+
+/* line 77, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions .list-group-item, .search-bar-element.search-field-container.search-location-field #suggestions-join-form .list-group-item, .formly-field-googleAutocomplete #suggestions .list-group-item, .formly-field-googleAutocomplete #suggestions-join-form .list-group-item {
+  color: #222222;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* line 84, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions .list-group-item:first-child, .search-bar-element.search-field-container.search-location-field #suggestions-join-form .list-group-item:first-child, .formly-field-googleAutocomplete #suggestions .list-group-item:first-child, .formly-field-googleAutocomplete #suggestions-join-form .list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* line 89, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions .list-group-item.active, .search-bar-element.search-field-container.search-location-field #suggestions .list-group-item.active:focus, .search-bar-element.search-field-container.search-location-field #suggestions .list-group-item.active:hover, .search-bar-element.search-field-container.search-location-field #suggestions-join-form .list-group-item.active, .search-bar-element.search-field-container.search-location-field #suggestions-join-form .list-group-item.active:focus, .search-bar-element.search-field-container.search-location-field #suggestions-join-form .list-group-item.active:hover, .formly-field-googleAutocomplete #suggestions .list-group-item.active, .formly-field-googleAutocomplete #suggestions .list-group-item.active:focus, .formly-field-googleAutocomplete #suggestions .list-group-item.active:hover, .formly-field-googleAutocomplete #suggestions-join-form .list-group-item.active, .formly-field-googleAutocomplete #suggestions-join-form .list-group-item.active:focus, .formly-field-googleAutocomplete #suggestions-join-form .list-group-item.active:hover {
+  color: #fff;
+  background-color: #4fb949;
+  border: 1px solid #4fb949;
+}
+
+/* line 100, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions li.autocompletefooter, .search-bar-element.search-field-container.search-location-field #suggestions-join-form li.autocompletefooter, .formly-field-googleAutocomplete #suggestions li.autocompletefooter, .formly-field-googleAutocomplete #suggestions-join-form li.autocompletefooter {
+  height: 25px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* line 109, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions li.autocompletefooter img, .search-bar-element.search-field-container.search-location-field #suggestions-join-form li.autocompletefooter img, .formly-field-googleAutocomplete #suggestions li.autocompletefooter img, .formly-field-googleAutocomplete #suggestions-join-form li.autocompletefooter img {
+  width: 120px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+/**/
+/**/
+/* line 133, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.error-card {
+  background-color: #eee;
+  text-align: center;
+  margin: 30px 0px;
+  padding: 30px;
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* line 142, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.error-card i {
+  font-size: 60px;
+  color: #011c4b;
+}
+
+/* line 149, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.error-card h1 {
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+/* line 158, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+.error-card h1, .error-card h2 {
+  color: #4fb949;
+}
+
+/**/
+/**/
+/* line 178, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content .row, #jfi-modal-dialog .row, .jfi-success-container .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* line 185, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content .formly-field-select .form-group select, #jfi-modal-dialog .formly-field-select .form-group select, .jfi-success-container .formly-field-select .form-group select {
+  height: 34px;
+}
+
+/* line 190, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content #join-page-content-section, #jfi-modal-dialog #join-page-content-section, .jfi-success-container #join-page-content-section {
+  padding-bottom: 50px;
+}
+
+/* line 201, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content strong, #join-entire-page-content p, #join-entire-page-content #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy #join-entire-page-content p, #join-entire-page-content #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList #join-entire-page-content p, #join-entire-page-content li, #jfi-modal-dialog strong, #jfi-modal-dialog p, #jfi-modal-dialog #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy #jfi-modal-dialog p, #jfi-modal-dialog #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList #jfi-modal-dialog p, #jfi-modal-dialog li, .jfi-success-container strong, .jfi-success-container p, .jfi-success-container #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .jfi-success-container p, .jfi-success-container #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .jfi-success-container p, .jfi-success-container li {
+  color: #222222;
+}
+
+/* line 212, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content a, #jfi-modal-dialog a, .jfi-success-container a {
+  color: #4fb949;
+  font-size: 16px !important;
+  line-height: 1.3 !important;
+}
+
+/* line 218, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content a#desktop-upload-remove-file-btn, #jfi-modal-dialog a#desktop-upload-remove-file-btn, .jfi-success-container a#desktop-upload-remove-file-btn {
+  background-color: #4fb949;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#join-entire-page-content a#desktop-upload-remove-file-btn:hover, #join-entire-page-content a#desktop-upload-remove-file-btn:active, #join-entire-page-content a#desktop-upload-remove-file-btn:focus, #jfi-modal-dialog a#desktop-upload-remove-file-btn:hover, #jfi-modal-dialog a#desktop-upload-remove-file-btn:active, #jfi-modal-dialog a#desktop-upload-remove-file-btn:focus, .jfi-success-container a#desktop-upload-remove-file-btn:hover, .jfi-success-container a#desktop-upload-remove-file-btn:active, .jfi-success-container a#desktop-upload-remove-file-btn:focus {
+  background-color: #4fb949;
+  text-decoration: none;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#join-entire-page-content a:hover, #join-entire-page-content a:active, #join-entire-page-content a:focus, #jfi-modal-dialog a:hover, #jfi-modal-dialog a:active, #jfi-modal-dialog a:focus, .jfi-success-container a:hover, .jfi-success-container a:active, .jfi-success-container a:focus {
+  color: #4fb949;
+  text-decoration: underline;
+}
+
+/* line 240, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content .join-is-not-apply-mobile, #join-entire-page-content .join-is-not-apply, #jfi-modal-dialog .join-is-not-apply-mobile, #jfi-modal-dialog .join-is-not-apply, .jfi-success-container .join-is-not-apply-mobile, .jfi-success-container .join-is-not-apply {
+  margin-top: 15px;
+  font-size: 16px;
+  padding: 0px;
+}
+
+/* line 246, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content .join-is-not-apply, #jfi-modal-dialog .join-is-not-apply, .jfi-success-container .join-is-not-apply {
+  margin-top: 0px;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+/* line 254, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content #join-button-mobile, #join-entire-page-content #join-button, #join-entire-page-content #jfi-apply, #jfi-modal-dialog #join-button-mobile, #jfi-modal-dialog #join-button, #jfi-modal-dialog #jfi-apply, .jfi-success-container #join-button-mobile, .jfi-success-container #join-button, .jfi-success-container #jfi-apply {
+  margin-top: 0px;
+  white-space: nowrap;
+}
+
+/* line 11, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:hover, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:active, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:focus, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:hover, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:active, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:focus, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:hover, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:active, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:focus, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus {
+  background: transparent;
+  display: block;
+  white-space: normal;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 15px;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* line 280, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin {
+  color: #4fb949;
+  margin: 0 auto;
+}
+
+/**/
+/**/
+/* line 303, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block {
+  color: #222222;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 315, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block h2, #cb-legal-content-block p, #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesList p, #cb-legal-content-block li, #cb-legal-content-block b {
+  color: #222222;
+}
+
+/* line 321, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block a {
+  color: #4fb949;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#cb-legal-content-block a:hover, #cb-legal-content-block a:active, #cb-legal-content-block a:focus {
+  color: #4fb949;
+  text-decoration: underline;
+}
+
+/* line 334, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy table, #cb-legal-content-block #cookiesList table {
+  width: 100%;
+}
+
+/* line 339, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy table.listCookies tr:first-child, #cb-legal-content-block #cookiesList table.listCookies tr:first-child {
+  background-color: #ccc;
+}
+
+/* line 345, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy table td, #cb-legal-content-block #cookiesList table td {
+  padding: 2px;
+  width: auto;
+}
+
+/* line 349, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy table td p, #cb-legal-content-block #cookiesList table td p {
+  font-size: 12px;
+}
+
+/* line 361, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy h3, #cb-legal-content-block #cookiesList h3 {
+  font-size: 20px !important;
+  font-weight: normal !important;
+}
+
+/* line 368, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesList p {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+/* line 375, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy a, #cb-legal-content-block #cookiesList a {
+  color: #4fb949 !important;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#cb-legal-content-block #cookiesPolicy a:hover, #cb-legal-content-block #cookiesPolicy a:active, #cb-legal-content-block #cookiesPolicy a:focus, #cb-legal-content-block #cookiesList a:hover, #cb-legal-content-block #cookiesList a:active, #cb-legal-content-block #cookiesList a:focus {
+  color: #4fb949 !important;
+  text-decoration: underline;
+}
+
+/**/
+/**/
+/* line 402, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#browse-by-container .col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 409, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#browse-by-container #browse-by-header {
+  padding-bottom: 20px;
+}
+
+/* line 413, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#browse-by-container #browse-by-header p {
+  line-height: 1.3;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* line 423, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#browse-by-container .browse-by-country-tab {
+  color: #4fb949;
+  font-weight: bold;
+  background-color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#browse-by-container .browse-by-country-tab:hover, #browse-by-container .browse-by-country-tab:active, #browse-by-container .browse-by-country-tab:focus {
+  color: #4fb949;
+  font-weight: bold;
+  background-color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-decoration: underline;
+}
+
+/* line 445, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#browse-by-container .browse-by-element-list .browse-by-element a {
+  color: #4fb949;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#browse-by-container .browse-by-element-list .browse-by-element a:hover, #browse-by-container .browse-by-element-list .browse-by-element a:active, #browse-by-container .browse-by-element-list .browse-by-element a:focus {
+  color: #4fb949;
+  text-decoration: underline;
+}
+
+/**/
+/**/
+/* line 480, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#job-results #after-apply-recommended-header, #job-results #after-apply-recommended-subheader {
+  color: #222222;
+  text-align: center;
+}
+
+/* line 487, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#job-results #recommendation-table {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/**/
+/**/
+/* line 515, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view .editPrefPageContainer {
+  width: 100%;
+}
+
+/* line 518, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view .editPrefPageContainer > .content-card {
+  padding: 0px 15px;
+  margin: 0px;
+}
+
+/* line 524, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view .col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 538, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-instructions h3 {
+  color: #222222;
+  text-align: center;
+  text-transform: none;
+}
+
+/* line 549, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-form .alert {
+  text-align: center;
+}
+
+/* line 555, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-form p {
+  color: #222222;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/* line 564, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-form input {
+  font-size: 16px;
+}
+
+/* line 570, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-form #edit-preference-update-btn {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: auto;
+}
+
+/* line 579, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/**/
+/**/
+/* line 617, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#subscription-form #subscription-message-section p {
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+
+/* line 628, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#subscription-form #subscription-question-section h2 {
+  color: #222222;
+  font-weight: bold;
+  text-align: left;
+  text-transform: none;
+  padding-bottom: 10px;
+}
+
+/* line 638, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#subscription-form #subscription-question-section p {
+  color: #222222;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+  padding-bottom: 10px;
+  margin-left: 25px;
+}
+
+/* line 650, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#subscription-form #subscription-question-section input {
+  font-size: 16px;
+  margin-left: 0px;
+}
+
+/* line 657, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+#subscription-form #subscription-question-section span {
+  color: #222222;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: none;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+@media (min-width: 768px) {
+  /* line 684, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  .internals-section, .legal-page-background {
+    padding-bottom: 100px;
+  }
+  /* line 690, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  .internals-titles, .error-card h1, #join-entire-page-content .join-form-header, #jfi-modal-dialog .join-form-header, .jfi-success-container .join-form-header, #cb-legal-content-block h1, #cb-legal-content-block #cookiesPolicy h2, #cb-legal-content-block #cookiesList h2, #cb-legal-content-block #cookiesPolicy h3, #cb-legal-content-block #cookiesList h3, #browse-by-container #browse-by-header, #browse-by-container #browse-by-header p, #after-apply-thank-you-header, #edit-preference-view #edit-preference-title, #subscription-title, .search-results-title, .jdp-title-inner-container .jdp-title-block-position .jdp-job-title {
+    font-size: 36px !important;
+  }
+  /**/
+  /**/
+  /* line 705, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  .search-bar-element.search-field-container.search-location-field #suggestions {
+    padding-right: 15px !important;
+  }
+  /* line 708, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  .search-bar-element.search-field-container.search-location-field #suggestions .list-group-item {
+    text-align: left;
+  }
+  /**/
+  /**/
+  /* line 733, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #cb-legal-content-block #cookiesPolicy table td, #cb-legal-content-block #cookiesList table td {
+    padding: 5px;
+  }
+  /* line 736, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #cb-legal-content-block #cookiesPolicy table td p, #cb-legal-content-block #cookiesList table td p {
+    font-size: 16px;
+  }
+  /* line 743, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #cb-legal-content-block #cookiesPolicy h3, #cb-legal-content-block #cookiesList h3 {
+    font-size: 28px !important;
+  }
+  /**/
+  /**/
+  /* line 765, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #edit-preference-view .top-buffer {
+    margin-top: 0px;
+  }
+  /* line 773, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #edit-preference-view #edit-preference-form #edit-preference-update-btn {
+    float: left;
+  }
+  /* line 779, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link {
+    float: right;
+  }
+  /**/
+  /**/
+  /* line 803, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content .join-button-footer-container, #jfi-modal-dialog .join-button-footer-container, .jfi-success-container .join-button-footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  /* line 821, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content .join-button-container, #join-entire-page-content #join-apply-block-mobile .text-right, #jfi-modal-dialog .join-button-container, #jfi-modal-dialog #join-apply-block-mobile .text-right, .jfi-success-container .join-button-container, .jfi-success-container #join-apply-block-mobile .text-right {
+    display: table;
+  }
+  /* line 825, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content .join-button-container #join-button-mobile, #join-entire-page-content .join-button-container #join-button, #join-entire-page-content .join-button-container #jfi-apply, #join-entire-page-content #join-apply-block-mobile .text-right #join-button-mobile, #join-entire-page-content #join-apply-block-mobile .text-right #join-button, #join-entire-page-content #join-apply-block-mobile .text-right #jfi-apply, #jfi-modal-dialog .join-button-container #join-button-mobile, #jfi-modal-dialog .join-button-container #join-button, #jfi-modal-dialog .join-button-container #jfi-apply, #jfi-modal-dialog #join-apply-block-mobile .text-right #join-button-mobile, #jfi-modal-dialog #join-apply-block-mobile .text-right #join-button, #jfi-modal-dialog #join-apply-block-mobile .text-right #jfi-apply, .jfi-success-container .join-button-container #join-button-mobile, .jfi-success-container .join-button-container #join-button, .jfi-success-container .join-button-container #jfi-apply, .jfi-success-container #join-apply-block-mobile .text-right #join-button-mobile, .jfi-success-container #join-apply-block-mobile .text-right #join-button, .jfi-success-container #join-apply-block-mobile .text-right #jfi-apply {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  /* line 11, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+  #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:hover, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:active, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:focus, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:hover, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:active, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:focus, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:hover, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:active, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:focus, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus {
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 0px;
+    padding: 0px 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 859, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content #join-page-content-section, #jfi-modal-dialog #join-page-content-section, .jfi-success-container #join-page-content-section {
+    padding-bottom: 0px;
+  }
+  /* line 864, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content .join-is-not-apply-mobile, #join-entire-page-content .join-is-not-apply, #jfi-modal-dialog .join-is-not-apply-mobile, #jfi-modal-dialog .join-is-not-apply, .jfi-success-container .join-is-not-apply-mobile, .jfi-success-container .join-is-not-apply {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 907, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content .join-is-not-apply-mobile, #join-entire-page-content .join-is-not-apply, #jfi-modal-dialog .join-is-not-apply-mobile, #jfi-modal-dialog .join-is-not-apply, .jfi-success-container .join-is-not-apply-mobile, .jfi-success-container .join-is-not-apply {
+    font-size: 16px;
+  }
+}
+
+/* line 6, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs {
+  padding-bottom: 20px;
+}
+
+/* line 10, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-job-count-message {
+  font-size: 18px;
+  display: block;
+  text-align: center;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort {
+  margin-top: 10px;
+}
+
+/* line 21, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort #mobile-sort-title {
+  color: #222222;
+}
+
+/* line 26, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort ul {
+  margin: 0px;
+}
+
+/* line 29, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort ul li {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 0px;
+}
+
+/* line 34, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort ul li a {
+  color: #222222;
+  padding: 10px;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.mobile-sort-jobs .mobile-dropdown-sort ul li:hover, .mobile-sort-jobs .mobile-dropdown-sort ul li:active, .mobile-sort-jobs .mobile-dropdown-sort ul li:focus {
+  background-color: #4fb949;
+}
+
+/* line 42, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort ul li:hover a, .mobile-sort-jobs .mobile-dropdown-sort ul li:active a, .mobile-sort-jobs .mobile-dropdown-sort ul li:focus a {
+  color: #fff;
+}
+
+/* line 56, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.breadcrumb {
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 0px;
+  border: none;
+}
+
+/* line 64, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.breadcrumb > li.active, .breadcrumb > li, .breadcrumb > li a {
+  color: #011c4b;
+  font-family: cabin;
+}
+
+/* line 72, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #222222;
+  content: "/\00a0";
+}
+
+/* line 125, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#sign-up-widget {
+  color: #011c4b;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+/* line 139, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#sign-up-widget .fa-envelope-o {
+  color: #fff;
+  background-color: #011c4b;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 100%;
+}
+
+/* line 170, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li {
+  text-align: center;
+}
+
+/* line 174, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li > a, .pagination > li > span, .pagination > li:last-child > a, .pagination > li:last-child > span, .pagination > li:first-child > a, .pagination > li:first-child > span {
+  border-radius: 100%;
+  color: #011c4b;
+  background-color: #fff;
+  line-height: 35px;
+  padding: 0px;
+  height: 35px;
+  width: 35px;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.pagination > li > a:hover, .pagination > li > a:active, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:active, .pagination > li > span:focus, .pagination > li:last-child > a:hover, .pagination > li:last-child > a:active, .pagination > li:last-child > a:focus, .pagination > li:last-child > span:hover, .pagination > li:last-child > span:active, .pagination > li:last-child > span:focus, .pagination > li:first-child > a:hover, .pagination > li:first-child > a:active, .pagination > li:first-child > a:focus, .pagination > li:first-child > span:hover, .pagination > li:first-child > span:active, .pagination > li:first-child > span:focus {
+  background-color: #4fb949;
+  color: #fff;
+}
+
+/* line 192, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li.active > a {
+  background-color: #4fb949;
+  color: #fff;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.pagination > li.active > a:hover, .pagination > li.active > a:active, .pagination > li.active > a:focus {
+  background-color: #439d3e;
+}
+
+/* line 204, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li > a[href=""] {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* line 211, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li .previous-page-caret {
+  font-size: 0px;
+}
+
+/* line 214, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li .previous-page-caret:before {
+  content: "\f0d9";
+  font-size: 22px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+/* line 228, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li .next-page-caret {
+  font-size: 0px;
+}
+
+/* line 231, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li .next-page-caret:after {
+  content: "\f0da";
+  font-size: 22px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+/* line 250, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.search-results-title {
+  text-align: left;
+  padding-bottom: 0px;
+}
+
+/* line 277, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-table, #recommendation-table {
+  padding-top: 20px;
+}
+
+/* line 285, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col {
+  background-color: #fff;
+}
+
+/* line 289, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container {
+  background-color: #fff;
+}
+
+/* line 293, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #narrow-search-header {
+  color: #fff;
+  background-color: #011c4b;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 100%;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#jrp-desktop-facet-col #desktop-facets-container #narrow-search-header:hover, #jrp-desktop-facet-col #desktop-facets-container #narrow-search-header:active, #jrp-desktop-facet-col #desktop-facets-container #narrow-search-header:focus {
+  background-color: #011840;
+}
+
+/* line 315, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body {
+  background-color: #fff;
+}
+
+/* line 325, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0px;
+  padding-bottom: 10px;
+}
+
+/* line 352, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets:first-child .caret-facet-category-header {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+/* line 361, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets:last-child {
+  padding-bottom: 15px;
+}
+
+/* line 376, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets:last-child .caret-facet-category-header {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* line 391, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header {
+  color: #fff;
+  background-color: #011c4b;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: left;
+  padding: 9px 0px 10px 43px;
+  margin: 0px;
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:hover, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:active, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:focus {
+  background-color: #011840;
+}
+
+/* line 422, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header .facet-arrow {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* line 431, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container {
+  color: #222222;
+  background-color: #fff;
+  font-weight: normal;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+/* line 443, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container a, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container span {
+  text-transform: capitalize;
+}
+
+/* line 460, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:first-child {
+  border-top: 1px solid #ccc;
+}
+
+/* line 465, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container .caret-facet-accent {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  color: #4fb949;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:hover, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:active, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:focus {
+  background-color: #4d6081;
+  color: #222222;
+}
+
+/* line 477, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:hover .caret-facet-accent, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:active .caret-facet-accent, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:focus .caret-facet-accent {
+  color: #222222;
+}
+
+/* line 486, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .selected-caret-facet-item-container {
+  color: #4fb949;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0px;
+}
+
+/* line 499, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+  padding: 5px 0px;
+  font-weight: normal;
+}
+
+/* line 532, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text {
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text:hover, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text:active, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text:focus {
+  text-decoration: underline;
+}
+
+/* line 545, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text.collapsed:before {
+  content: '+';
+}
+
+/* line 564, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text:before {
+  content: '-';
+}
+
+/* line 596, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table, #recommendation-table {
+  margin-bottom: 0px;
+}
+
+/* line 600, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table #job-result-table-header-table-row, #job-result-table #after-apply-job-table-header, #recommendation-table #job-result-table-header-table-row, #recommendation-table #after-apply-job-table-header {
+  border-bottom: 2px solid #011c4b;
+}
+
+/* line 606, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result-header, #recommendation-table .job-result-header {
+  background-color: #fff;
+  padding: 8px;
+  min-width: 165px;
+  font-size: 16px;
+}
+
+/* line 620, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result-header #desktop-job-location-sort, #job-result-table .job-result-header .job-table-header-location, #recommendation-table .job-result-header #desktop-job-location-sort, #recommendation-table .job-result-header .job-table-header-location {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* line 627, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result-header a, #job-result-table .job-result-header span, #job-result-table .job-result-header .job-table-header-title, #job-result-table .job-result-header .job-table-header-location, #job-result-table .job-result-header .job-table-header-date-posted, #recommendation-table .job-result-header a, #recommendation-table .job-result-header span, #recommendation-table .job-result-header .job-table-header-title, #recommendation-table .job-result-header .job-table-header-location, #recommendation-table .job-result-header .job-table-header-date-posted {
+  color: #4fb949;
+  text-transform: capitalize;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#job-result-table .job-result-header a:hover, #job-result-table .job-result-header a:active, #job-result-table .job-result-header a:focus, #job-result-table .job-result-header span:hover, #job-result-table .job-result-header span:active, #job-result-table .job-result-header span:focus, #job-result-table .job-result-header .job-table-header-title:hover, #job-result-table .job-result-header .job-table-header-title:active, #job-result-table .job-result-header .job-table-header-title:focus, #job-result-table .job-result-header .job-table-header-location:hover, #job-result-table .job-result-header .job-table-header-location:active, #job-result-table .job-result-header .job-table-header-location:focus, #job-result-table .job-result-header .job-table-header-date-posted:hover, #job-result-table .job-result-header .job-table-header-date-posted:active, #job-result-table .job-result-header .job-table-header-date-posted:focus, #recommendation-table .job-result-header a:hover, #recommendation-table .job-result-header a:active, #recommendation-table .job-result-header a:focus, #recommendation-table .job-result-header span:hover, #recommendation-table .job-result-header span:active, #recommendation-table .job-result-header span:focus, #recommendation-table .job-result-header .job-table-header-title:hover, #recommendation-table .job-result-header .job-table-header-title:active, #recommendation-table .job-result-header .job-table-header-title:focus, #recommendation-table .job-result-header .job-table-header-location:hover, #recommendation-table .job-result-header .job-table-header-location:active, #recommendation-table .job-result-header .job-table-header-location:focus, #recommendation-table .job-result-header .job-table-header-date-posted:hover, #recommendation-table .job-result-header .job-table-header-date-posted:active, #recommendation-table .job-result-header .job-table-header-date-posted:focus {
+  text-decoration: none;
+}
+
+/* line 644, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result-header .job-table-header-title, #job-result-table .job-result-header .job-table-header-location, #job-result-table .job-result-header .job-table-header-date-posted, #recommendation-table .job-result-header .job-table-header-title, #recommendation-table .job-result-header .job-table-header-location, #recommendation-table .job-result-header .job-table-header-date-posted {
+  display: table-cell;
+}
+
+/* line 650, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result-header .glyphicon-menu-down, #job-result-table .job-result-header .glyphicon-menu-up, #recommendation-table .job-result-header .glyphicon-menu-down, #recommendation-table .job-result-header .glyphicon-menu-up {
+  color: #011c4b;
+}
+
+/* line 658, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result, #recommendation-table .job-result {
+  font-size: 16px;
+  font-family: cabin;
+  border-top: solid 1px #ccc;
+}
+
+/* line 666, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result td .job-result-title, #recommendation-table .job-result td .job-result-title {
+  color: #4fb949;
+  font-weight: bold;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#job-result-table .job-result td .job-result-title:hover, #job-result-table .job-result td .job-result-title:active, #job-result-table .job-result td .job-result-title:focus, #recommendation-table .job-result td .job-result-title:hover, #recommendation-table .job-result td .job-result-title:active, #recommendation-table .job-result td .job-result-title:focus {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* line 686, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result td, #job-result-table .job-result td .address-line, #job-result-table .job-result td.job-result-company-cell, #job-result-table .job-result td.job-result-company-cell .address-line, #job-result-table .job-result td.job-result-location-cell, #job-result-table .job-result td.job-result-location-cell .address-line, #job-result-table .job-result td.job-result-date-posted-cell, #job-result-table .job-result td.job-result-date-posted-cell .address-line, #recommendation-table .job-result td, #recommendation-table .job-result td .address-line, #recommendation-table .job-result td.job-result-company-cell, #recommendation-table .job-result td.job-result-company-cell .address-line, #recommendation-table .job-result td.job-result-location-cell, #recommendation-table .job-result td.job-result-location-cell .address-line, #recommendation-table .job-result td.job-result-date-posted-cell, #recommendation-table .job-result td.job-result-date-posted-cell .address-line {
+  color: #222222;
+}
+
+/* line 692, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result td .address-line, #job-result-table .job-result td.job-result-company-cell .address-line, #job-result-table .job-result td.job-result-location-cell .address-line, #job-result-table .job-result td.job-result-date-posted-cell .address-line, #recommendation-table .job-result td .address-line, #recommendation-table .job-result td.job-result-company-cell .address-line, #recommendation-table .job-result td.job-result-location-cell .address-line, #recommendation-table .job-result td.job-result-date-posted-cell .address-line {
+  display: table-cell;
+}
+
+/* line 11, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#job-result-table .job-result td.job-table-element-arrow a, #job-result-table .job-result td.job-table-element-arrow a:hover, #job-result-table .job-result td.job-table-element-arrow a:active, #job-result-table .job-result td.job-table-element-arrow a:focus, #recommendation-table .job-result td.job-table-element-arrow a, #recommendation-table .job-result td.job-table-element-arrow a:hover, #recommendation-table .job-result td.job-table-element-arrow a:active, #recommendation-table .job-result td.job-table-element-arrow a:focus {
+  color: #4fb949;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#job-result-table .job-result:hover, #job-result-table .job-result:active, #job-result-table .job-result:focus, #recommendation-table .job-result:hover, #recommendation-table .job-result:active, #recommendation-table .job-result:focus {
+  background-color: #4d6081;
+}
+
+/* line 780, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+#no-jobs-message {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+/* line 792, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.jrp-pagination-row {
+  padding-bottom: 0px;
+}
+
+/* line 796, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.jrp-pagination-row .mobile-pagination {
+  text-align: center;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.jrp-pagination-row .mobile-pagination .next-mobile-page:hover, .jrp-pagination-row .mobile-pagination .next-mobile-page:active, .jrp-pagination-row .mobile-pagination .next-mobile-page:focus,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:hover,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:active,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:focus {
+  opacity: 1;
+}
+
+/* line 816, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+section.prefooter {
+  background-color: #4fb949;
+}
+
+/* line 819, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+section.prefooter .not-ready {
+  padding: 12px 20px;
+}
+
+/* line 822, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+section.prefooter .not-ready h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: cabin;
+  text-align: center;
+  padding-bottom: 22px;
+}
+
+/* line 831, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+section.prefooter .not-ready p, section.prefooter .not-ready #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy section.prefooter .not-ready p, section.prefooter .not-ready #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList section.prefooter .not-ready p {
+  text-align: center;
+  color: #fff;
+  font-family: cabin;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+/* line 840, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+section.prefooter .not-ready-btn {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* line 844, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+section.prefooter .not-ready-btn a {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  font-family: cabin;
+  margin-left: 0;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+section.prefooter .not-ready-btn a:hover, section.prefooter .not-ready-btn a:active, section.prefooter .not-ready-btn a:focus {
+  background-color: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  background-color: #011c4b;
+}
+
+/* line 861, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+.not-ready-img {
+  text-align: center;
+}
+
+/* line 865, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+footer {
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+  /* line 870, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  section.prefooter .not-ready-btn a {
+    width: 320px;
+    display: block;
+    font-size: 18px;
+    font-family: cabin;
+    margin: 0 auto;
+  }
+  /* line 878, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  .landing-banner.banner-jrp {
+    background: url(../img/banner-jrp.png) no-repeat center center;
+    height: 450px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 895, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col .caret-facet-category-header, #job-result-table .job-result-header, #recommendation-table .job-result-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 899, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col .caret-facet-category-header, #jrp-desktop-facet-col .caret-facet-category-header a, #jrp-desktop-facet-col .caret-facet-category-header span, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-title, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-location, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-date-posted, #job-result-table .job-result-header, #job-result-table .job-result-header a, #job-result-table .job-result-header span, #job-result-table .job-result-header .job-table-header-title, #job-result-table .job-result-header .job-table-header-location, #job-result-table .job-result-header .job-table-header-date-posted, #recommendation-table .job-result-header, #recommendation-table .job-result-header a, #recommendation-table .job-result-header span, #recommendation-table .job-result-header .job-table-header-title, #recommendation-table .job-result-header .job-table-header-location, #recommendation-table .job-result-header .job-table-header-date-posted {
+    font-size: 18px;
+    line-height: 1.3;
+    color: #011c4b;
+    font-family: Cabin;
+    font-weight: bold;
+  }
+  /* line 922, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #narrow-search-header {
+    display: none;
+  }
+  /* line 928, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body {
+    margin-top: 0px;
+  }
+  /* line 939, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets {
+    padding-bottom: 25px;
+  }
+  /* line 953, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  /* line 982, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets:last-child {
+    padding-bottom: 0px;
+  }
+  /* line 988, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header {
+    text-align: left;
+    padding: 10px 0px 10px 14px;
+  }
+  /* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:hover, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:active, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:focus {
+    background-color: #011c4b;
+  }
+  /* line 1009, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container {
+    margin: 0px;
+  }
+  /* line 1029, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-bottom-desktop-pagination {
+    padding-top: 30px;
+  }
+  /* line 1037, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #job-result-table .job-result-header, #recommendation-table .job-result-header {
+    min-width: 215px;
+  }
+  /* line 1048, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  .landing-banner.banner-jrp {
+    background: url(../img/banner-jrp.png) no-repeat center center;
+    height: 536px;
+  }
+  /* line 1057, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  section.prefooter .not-ready-btn a {
+    width: 320px;
+    display: block;
+  }
+  /* line 1062, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  section.prefooter .not-ready-img {
+    padding-top: 54px;
+  }
+  /* line 1066, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  section.prefooter .not-ready p, section.prefooter .not-ready #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy section.prefooter .not-ready p, section.prefooter .not-ready #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList section.prefooter .not-ready p {
+    text-align: left;
+  }
+  /* line 1069, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  .search-desktop-home, .search-desktop, .search-desktop, #search-widget {
+    position: relative;
+    background: #011c4b;
+    padding: 27.5px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 1082, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col .caret-facet-category-header, #jrp-desktop-facet-col .caret-facet-category-header a, #jrp-desktop-facet-col .caret-facet-category-header span, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-title, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-location, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-date-posted, #job-result-table .job-result-header, #job-result-table .job-result-header a, #job-result-table .job-result-header span, #job-result-table .job-result-header .job-table-header-title, #job-result-table .job-result-header .job-table-header-location, #job-result-table .job-result-header .job-table-header-date-posted, #recommendation-table .job-result-header, #recommendation-table .job-result-header a, #recommendation-table .job-result-header span, #recommendation-table .job-result-header .job-table-header-title, #recommendation-table .job-result-header .job-table-header-location, #recommendation-table .job-result-header .job-table-header-date-posted {
+    font-size: 20px;
+  }
+  /* line 1091, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-results-page.scss */
+  #job-result-table .job-result-header, #recommendation-table .job-result-header {
+    min-width: 265px;
+  }
+}
+
+/* line 6, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+#job-details-page .container .container {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 14, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+#jdp-apply-button-top, #jdp-apply-button-bottom, #jdp-apply-button-top-mobile, #jdp-apply-button-bottom-mobile {
+  max-width: 185px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* line 24, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+#jdp-not-ready-to-apply-link-top,
+#jdp-not-ready-to-apply-link-bottom {
+  color: #011c4b;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 0px;
+}
+
+/* line 36, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.jdp-title-inner-container {
+  background-color: #fff;
+  padding: 15px;
+  display: table;
+  width: 100%;
+  margin-top: 0px;
+}
+
+/* line 47, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.jdp-title-inner-container .jdp-title-block-position .jdp-job-title {
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+/* line 94, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.jdp-title-inner-container .jdp-title-block-position #jdp-title-date-posted {
+  color: #222222;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* line 103, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.jdp-title-inner-container .jdp-title-block-position #jdp-title-date-posted strong {
+  color: #4fb949;
+  font-family: cabin;
+}
+
+/* line 115, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content {
+  background-color: #fff;
+  padding-top: 0px;
+}
+
+/* line 120, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .content-card-header {
+  color: #011c4b;
+  font-size: 30px;
+  font-family: cabin;
+  font-weight: bold;
+  text-align: left;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+/* line 145, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-social-sharing-section {
+  border-top: 3px solid #ccc;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 157, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card {
+  padding: 0px 0px 15px 0px;
+  margin-bottom: 30px;
+}
+
+/* line 170, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .content-card-header {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: 2px solid #ccc;
+  margin: 0px 20px 0px 20px;
+  padding: 20px 5px 20px 5px;
+}
+
+/* line 189, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding {
+  padding: 20px;
+  line-height: 1.3;
+}
+
+/* line 201, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li {
+  padding-bottom: 0px;
+}
+
+/* line 209, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .snapshot-icon.secondary-text-color {
+  color: #4fb949;
+  font-size: 24px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+/* line 216, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .snapshot-icon.secondary-text-color.glyphicon-triangle-top {
+  padding-top: 0px;
+}
+
+/* line 220, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .snapshot-icon.secondary-text-color.fa-clock-o, .job-details-content .jdp-job-snapshot-card .snapshot-padding li .snapshot-icon.secondary-text-color.fa-info-circle {
+  padding-top: 5px;
+}
+
+/* line 231, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .snapshot-text {
+  color: #000;
+  font-family: cabin;
+}
+
+/* line 246, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .secondary-text-color {
+  color: #011c4b;
+  font-weight: normal;
+}
+
+/* line 257, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .job-snapshot-link {
+  color: #4fb949;
+  font-weight: bold;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .job-snapshot-link:hover, .job-details-content .jdp-job-snapshot-card .snapshot-padding li .job-snapshot-link:active, .job-details-content .jdp-job-snapshot-card .snapshot-padding li .job-snapshot-link:focus {
+  color: #4d6081;
+}
+
+/* line 291, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-description-section {
+  background-color: #fff;
+  border-top: 3px solid #ccc;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-top: 0px;
+}
+
+/* line 304, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-description-section .jdp-job-description-card {
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 313, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-description-section .jdp-job-description-card, .job-details-content #jdp-job-description-section .jdp-job-description-card p, .job-details-content #jdp-job-description-section .jdp-job-description-card #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .job-details-content #jdp-job-description-section .jdp-job-description-card p, .job-details-content #jdp-job-description-section .jdp-job-description-card #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .job-details-content #jdp-job-description-section .jdp-job-description-card p, .job-details-content #jdp-job-description-section .jdp-job-description-card li {
+  color: #222222;
+  font-family: cabin;
+}
+
+/* line 322, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-description-section .jdp-job-description-card a {
+  color: #4fb949;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.job-details-content #jdp-job-description-section .jdp-job-description-card a:hover, .job-details-content #jdp-job-description-section .jdp-job-description-card a:active, .job-details-content #jdp-job-description-section .jdp-job-description-card a:focus {
+  color: #4fb949;
+  text-decoration: underline;
+}
+
+/* line 336, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-requirements-section {
+  background-color: #fff;
+  border-bottom: none;
+}
+
+/* line 356, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-requirements-section .jdp-job-requirements-card, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card p, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card p, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card p, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card li {
+  color: #222222;
+  font-family: cabin;
+}
+
+/* line 365, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-requirements-section .jdp-job-requirements-card a {
+  color: #4fb949;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+.job-details-content #jdp-job-requirements-section .jdp-job-requirements-card a:hover, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card a:active, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card a:focus {
+  color: #4fb949;
+  text-decoration: underline;
+}
+
+/* line 379, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-bottom-apply-section {
+  margin-top: 10px;
+  background-color: #fff;
+  margin-top: 10px;
+  border-top: 3px solid #ccc;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 392, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-bottom-apply-section .jdp-bottom-apply-card {
+  padding-bottom: 5px;
+}
+
+/* line 403, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-bottom-apply-section #jdp-bottom-apply-button-col {
+  padding-top: 20px;
+}
+
+/* line 421, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-similar-jobs-row {
+  background-color: #fff;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+/* line 434, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-similar-jobs-row h3 {
+  font-size: 30px;
+  font-family: cabin;
+  font-weight: bold;
+  color: #011c4b;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* line 457, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-similar-jobs-row .similar-jobs {
+  text-align: center;
+}
+
+/* line 462, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-similar-jobs-row .similar-jobs li .similar-jobs-tag {
+  color: #010000;
+  font-family: cabin;
+}
+
+/* line 473, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-similar-jobs-row .similar-jobs > li + li:before {
+  padding: 0px;
+  content: "";
+  color: #4fb949;
+}
+
+@media (min-width: 768px) {
+  /* line 491, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content .content-card-header {
+    text-align: left;
+  }
+  /* line 498, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  #jdp-not-ready-to-apply-link-top,
+  #jdp-not-ready-to-apply-link-bottom {
+    font-size: 16px;
+  }
+  /* line 505, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .jdp-title-inner-container {
+    margin-top: 0px;
+  }
+  /* line 511, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .jdp-title-inner-container .jdp-title-block-position .jdp-job-title {
+    text-align: left;
+  }
+  /* line 518, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .jdp-title-inner-container .jdp-title-block-position #jdp-title-date-posted {
+    text-align: left;
+  }
+  /* line 520, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .jdp-title-inner-container .jdp-title-block-position #jdp-title-date-posted strong {
+    font-family: cabin;
+    color: #4fb949;
+  }
+  /* line 530, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .jdp-title-inner-container .jdp-top-apply-block-position {
+    width: 25%;
+    vertical-align: middle;
+    padding-top: 0px;
+  }
+  /* line 546, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content #jdp-bottom-apply-section #jdp-bottom-apply-company-logo-col .multi-brand-image {
+    text-align: left;
+  }
+  /* line 553, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content #jdp-bottom-apply-section #jdp-bottom-apply-button-col {
+    padding-top: 0px;
+  }
+  /* line 563, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content #jdp-similar-jobs-row h3 {
+    text-align: left;
+  }
+  /* line 569, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content #jdp-similar-jobs-row .similar-jobs {
+    text-align: left;
+  }
+  /* line 572, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content #jdp-similar-jobs-row .similar-jobs > li + li:before {
+    padding: 0 0.55em;
+    content: "|";
+  }
+  /* line 628, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  .landing-banner.banner-jdp {
+    background: url(../img/banner-jdp.png) no-repeat center center;
+    height: 450px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 639, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_job-details-page.scss */
+  #jdp-not-ready-to-apply-link-top,
+  #jdp-not-ready-to-apply-link-bottom {
+    font-size: 16px;
+  }
+}
+
+/* line 6, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-placeholder {
+  display: none;
+}
+
+/* line 11, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-section {
+  position: fixed;
+  z-index: 1035;
+  bottom: 0px;
+  top: auto;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  background: #4fb949;
+  padding: 0px;
+  height: auto;
+}
+
+/* line 24, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-section #cookies-policy-bar {
+  padding: 10px;
+}
+
+/* line 28, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-section #cookies-policy-bar-dismiss-button {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 11, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#cookies-policy-bar-section #cookies-policy-bar-dismiss-button, #cookies-policy-bar-section #cookies-policy-bar-dismiss-button:hover, #cookies-policy-bar-section #cookies-policy-bar-dismiss-button:active, #cookies-policy-bar-section #cookies-policy-bar-dismiss-button:focus {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#cookies-policy-bar-section #cookies-policy-bar-dismiss-button:hover, #cookies-policy-bar-section #cookies-policy-bar-dismiss-button:active, #cookies-policy-bar-section #cookies-policy-bar-dismiss-button:focus {
+  opacity: 0.7;
+}
+
+/* line 45, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-section .text-center {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* line 49, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-section .text-center #cookies-policy-link {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 11, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#cookies-policy-bar-section .text-center #cookies-policy-link, #cookies-policy-bar-section .text-center #cookies-policy-link:hover, #cookies-policy-bar-section .text-center #cookies-policy-link:active, #cookies-policy-bar-section .text-center #cookies-policy-link:focus {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* line 18, Z:/Alvaro Centeno/2019/Premium/Test/Inclusive Jobs Ltd/Premium Template/scss/abstracts/_mixins.scss */
+#cookies-policy-bar-section .text-center #cookies-policy-link:hover, #cookies-policy-bar-section .text-center #cookies-policy-link:active, #cookies-policy-bar-section .text-center #cookies-policy-link:focus {
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=../css/main.map */

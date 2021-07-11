@@ -1,0 +1,151 @@
+<!-- REPLACE WITH BANNER & SEARCHBOX -->
+
+<!--landing page JDP-->
+
+<section class="landing-banner banner-jrp hidden-xs">
+
+    <!-- content banner -->
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 ">
+          <!-- Logo desktop -->
+          <a href="/" class="visible-lg" title="Inclusive Jobs Careers" alt="Inclusive Jobs Careers">
+            <img src="^media_src_site-logo.png^" alt="Inclusive Jobs Careers" class="img-responsive">
+          </a>
+          <!-- End Logo desktop -->
+
+          <!-- Logo mobile -->
+          <a href="/" class="visible-xs" title="Inclusive Jobs Careers" alt="Inclusive Jobs Careers">
+            <img src="^media_src_site-logo-mobile.png^" alt="Inclusive Jobs Careers" class="img-responsive">
+          </a>
+          <!-- End Logo mobile -->
+        </div>
+
+        <div class="col-xs-12 col-lg-4 col-lg-offset-2">
+          <div class="text-banner">
+
+            <a href="/join" class="btn btn-primary" title="Sign up for Job Alerts">Sign up for Job Alerts</a>
+            <a href="/join" class="btn btn-primary" title="Click here for candidate support">Click here for candidate support</a>
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+    <!-- end content banner -->
+  </section>
+
+<!--End landing JDP -->
+
+<!-- Desktop Search -->
+<div class="search-desktop-home hidden-xs">
+  <!-- Search box -->
+  <div class="search-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="search-box-content">
+
+            <!-- <h1>Search For Jobs</h1> -->
+
+            <!-- Search bar -->
+            ^tmp_elements=search_bar^
+
+
+            <!-- View all jobs -->
+            <p class="link-center">
+              <a href="/search" class="view-all-jobs" title="View All Jobs at Inclusive Jobs">View All Jobs at Inclusive Jobs</a>
+            </p>
+            <!-- End View all jobs -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Search box -->
+</div>
+<!-- End Desktop Search -->
+
+
+
+<!-- Mobile Search -->
+<div id="SearchBoxMobile" class="search-mobile collapsed" aria-expanded="false">
+  <!-- Search box -->
+  <div class="search-box visible-xs">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="search-box-content">
+
+            <!-- Search bar -->
+
+            ^tmp_elements=search_bar^
+
+
+            <!-- View all jobs -->
+            <p class="link-center">
+              <a href="/search" class="view-all-jobs" title="View All Jobs at Inclusive Jobs">View All Jobs at Inclusive Jobs</a>
+            </p>
+            <!-- End View all jobs -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Search box -->
+</div>
+<!-- End Mobile Search -->
+
+
+
+<!-- Internals section (Job results page content (JRP)) -->
+<section class="internals-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+
+        <!-- Breadcrumb -->
+        ^tmp_elements=jrp_elements=jrp_breadcrumb_row^
+        <!-- End Breadcrumb -->
+
+        <!-- JRP Title row -->
+        ^tmp_elements=jrp_elements=jrp_title_row^
+        <!-- End JRP Title row -->
+
+        <!-- JRP Title row (External Vendor Design) -->
+        <!-- <div id="jrp-spelling-row" class="row hidden">
+          <div class="col-xs-12">
+            <h4>^corrected_spelling^</h4>
+            <h5>^original_spelling^</h5>
+          </div>
+        </div>
+
+        <div id="jrp-title-row" class="row">
+          <div class="col-md-12 hidden-xs hidden-sm">
+            <h1 class="search-results-title label-text">
+              <span class="jrp-jobs-count">^total_job_results^ Jobs</span>
+              at
+              <span class="jrp-job-company">^client_display_name^</span>
+            </h1>
+            <strong>
+
+            </strong>
+          </div>
+        </div> -->
+        <!-- End JRP Title row (External Vendor Design) -->
+
+        <!-- Jobs results -->
+        ^tmp_elements=job_results_view^
+        <!-- End Jobs results -->
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Internals section (Job results page content (JRP)) -->

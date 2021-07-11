@@ -1,0 +1,897 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.landing-banner{
+  background: url("../img/banner-mobile.png") no-repeat center center;
+  background-size: cover;
+  height: 450px; // -> Always
+  position: relative;
+
+
+
+  .text-banner {
+    text-align: center;
+    margin-top: 20px;
+    .btn-primary{
+      color: #fff;
+      background-color: transparent;
+      border: 2px solid white;
+      // margin: 5px 0px;
+      display: block;
+      border-radius: 25px;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 13px 0px;
+      margin-top: 10px;
+
+      @include on-event {
+        background-color: $primary-color;
+      }
+    }
+
+  }
+
+  .text-banner-paragraph {
+
+    text-align: center;
+    margin-top: 20px;
+    h2{
+      color: $white;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-family: $tertiary-font;
+      line-height: 1.3;
+
+    }
+
+    a.btn.btn-primary.green{
+      background-color: #4fb949;
+      border-radius: 25px;
+      border: none;
+      display: inline-block;
+      // font-size: 18px;
+      font-size: 14px;
+      font-family: $tertiary-font;
+      margin-top: 10px;
+      padding: 15px 75px;
+      margin-bottom: 20px;
+
+      @include on-event {
+        background-color: $secondary-color;
+      }
+    }
+
+    a.btn.btn-primary.green:last-child(){
+      margin-bottom: 20px;
+    }
+
+    // a.btn.btn-primary.green {
+    //   background-color: #4fb949;
+    //   border-radius: 25px;
+    //   border: none;
+    //   display: inline-block;
+    //   font-size: 14px;
+    //   margin-top: 10px;
+    //   padding: 15px 75px;
+    //   margin-bottom: 20px;
+    //   &:last-child {
+    //     margin-bottom: 20px;
+    //   }
+    // }
+
+  }
+
+
+}
+
+
+.receive-bg {
+  background: #4fb949;
+  text-align: center;
+  p  {
+    color:white;
+    font-family: cabin;
+    font-size: 18px;
+    padding-bottom: 6px;
+    span{
+      font-size: 60px;
+      color:$white;
+      display: block;
+      line-height: 60px;
+      font-family: cabin;
+      font-weight: bold;
+
+    }
+
+  }
+}
+
+.home-info {
+
+  .overview-info {
+    p {
+      line-height: 27px;
+      padding: 8px 0px;
+    }
+    .menu-info-mobile {
+      h3 {
+        font-size: 24px;
+        color: #011c4b;
+        font-family: cabin;
+        padding-bottom: 7px;
+        padding-top: 0px;
+      }
+      ul{
+        list-style: none;
+        padding: 0;
+        li{
+          p{
+            display: inline-flex;
+            i{
+              padding-right: 20px;
+              color: #4fb949;
+              padding-top: 4px;
+            }
+          }
+          // a{
+          //   i{
+          //   color: #4fb949;
+          //   padding:
+          //   }
+          // }
+        }
+      }
+    }
+
+    h3 {
+      font-family: cabin;
+      font-weight: bold;
+      font-size: 36px;
+      color: #011c4b;
+      text-align: left;
+      padding-top: 0px;
+      padding-bottom: 10px;
+      padding-top: 50px;
+    }
+
+    p {
+      font-family: cabin;
+    }
+  }
+
+  .featured-careers {
+    h2 {
+      color: #011c4b;
+      font-family: cabin;
+      font-weight: bold;
+      text-align: center;
+      font-size: 36px;
+    }
+    // img.img-responsive.fp-img {
+    //   padding: 15px 10px;
+    // }
+    .fp-container {
+      position: relative;
+      // width: 280px;
+      text-align: center;
+      margin-bottom: 52px;
+      padding-top: 30px;
+
+    }
+    .fp-buttom {
+      // width: 264px;
+      // height: 63px;
+      background: #402977;
+      text-align: center;
+      max-width: 260px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 15.5px 0px;
+      position: absolute;
+      z-index: 999;
+      top: auto;
+      left: 0;
+      right: 0;
+      bottom: -31px;
+      p {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: cabin;
+        text-align: center;
+        margin:0;
+
+      }
+    }
+
+  }
+  .aside-image {
+    padding-bottom: 52px;
+  }
+
+}
+
+.recent-bg {
+  .wrapper {
+
+    .body {
+      .table{
+        margin-bottom: -26px;
+
+        tr{
+          display: block;
+          margin-bottom: 5px;
+
+          td{
+            display: block;
+            border: none;
+          }
+
+          .job_widget_title{
+            display: block;
+            border: 2px solid $secondary-color;
+            box-shadow: 0px 0px 20px rgba($black, 0.5);
+            padding: 10px 15px;
+            padding-right: 65px;
+            position: relative;
+
+            text-decoration: none;
+
+            @include on-event{
+              text-decoration: none;
+
+              &:before{
+                background-color: $primary-color;
+              }
+            }
+
+            &:before{
+              content: "";
+              position: absolute;
+              top: 0px;
+              bottom: 0px;
+              right: 0px;
+              left: auto;
+
+              width: 50px;
+              background-color: #402977;
+              transition: all 0.3s ease;
+            }
+
+            &:after{
+              content: "\f105";
+              font-family: FontAwesome;
+              color: $white;
+              font-size: 30px;
+
+              position: absolute;
+              top: calc(50% - 21px);
+              bottom: auto;
+              right: 0px;
+              left: auto;
+              width: 50px;
+              text-align: center;
+            }
+
+          }
+
+          .job_widget_location{
+            display: none;
+
+            @include on-event(true){
+              text-decoration: none;
+            }
+          }
+        }
+
+
+      }
+    }
+
+  }
+
+}
+
+
+.home-recent {
+  .recent-bg{
+    .view-btn{
+      text-align: center;
+      padding: 30px 0px;
+      padding-bottom: 80px;
+      a{
+        border: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        // max-width: 320px;
+        background-color: #402977;
+        @include on-event{
+          border: none;
+          background-color:  #4fb949;
+        }
+      }
+
+    }
+  }
+
+
+
+
+  h2 {
+
+    // text-align: center;
+    font-family: cabin;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 36px;
+    color: #402977;
+    font-size: 36px;
+    padding-bottom: 18px;
+
+  }
+
+
+
+}
+
+section.home-brands {
+  // padding: 18px 3px;
+  padding-top: 18px;
+  padding-bottom: 8px;
+  // .padding-bottom-mobile{
+  //   padding-bottom: 30px;
+  // }
+  .slider-mobile{
+    img{
+      padding-bottom: 48px;
+    }
+  }
+}
+
+.home-recent{
+  .receive-bg{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    .receive-bg-fly{
+      padding-top: 30px;
+      padding-bottom: 40px;
+    }
+    .sign-here{
+      display: block;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: 320px;
+      font-size: 18px;
+      font-family: cabin;
+      // border: 3px solid white;
+      @include on-event{
+        background-color: #402977;
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.green-background{
+  background-color: #4fb949;
+  margin-bottom: 40px;
+}
+
+p.text-center {
+  color: $white;
+  padding: 0px;
+  line-height: 2;
+}
+
+@media (min-width: 768px){
+
+  .landing-banner{
+    background: url("../img/banner.png") no-repeat center center;
+    background-size: cover;
+    height: 620px;
+
+    #landing-carousel{
+      .item{
+        background: url("../img/banner.png") no-repeat center center;
+        background-size: cover;
+        height: 620px;
+      }
+    }
+
+  }
+  .landing-banner .text-banner-paragraph h2 {
+
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+
+  .landing-banner .text-banner-paragraph {
+    text-align: center;
+    // margin-top: 86px;
+    padding: 128px 0px;
+  }
+
+  .landing-banner .text-banner-paragraph a.btn.btn-primary.green {
+    background-color: #4fb949;
+    border-radius: 25px;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 34px;
+    width: 248px;
+    height: 50px;
+    padding: 15px 0px;
+    margin-left: 25px;
+  }
+
+  .home-info .overview-info .btn-read {
+    background-color: red;
+  }
+
+  .home-info .overview-info .btn-read.collapsed .more {
+    display: block;
+  }
+
+  .home-info{
+    .overview-info {
+      padding-bottom: 12px;
+
+      .content-body {
+        h2{
+          margin-top: 0px;
+          color: #011c4b;
+          font-family: cabin;
+          font-size: 24px;
+        }
+
+      }
+
+      .menu-info-desktop {
+        ul{
+          list-style: none;
+          padding-left: 2px;
+          padding: 12px 0px;
+          li{
+            p{
+              display: inline-flex;
+              i{
+                padding-right: 22px;
+                color: #4fb949;
+                margin-top: 4px;
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
+  }
+
+  .home-info .overview-info .menu-info-desktop {
+    padding: 15px;
+    .btn-read {
+      background-color: $primary-color;
+      border-radius: 25px;
+      width: 167px;
+      height: 50px;
+    }
+    .btn-read.collapsed .more{
+      display: block;
+      padding: 7px 0px;
+    }
+
+    .btn-read.collapsed .less{
+      display: none;
+    }
+
+    .btn-read .more{
+      display: none;
+      font-size: 16px;
+      font-family: cabin;
+    }
+
+    .btn-read .less{
+      display: block;
+      padding: 7px 0px;
+      font-size: 16px;
+      font-family: cabin;
+
+    }
+
+
+  }
+
+  .home-recent h2 {
+    text-align: center;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 24px;
+
+
+  }
+
+  .home-recent .receive-bg .receive-bg-fly {
+    padding-top: 5px;
+    // float: right;
+  }
+  .home-info .featured-careers .fp-buttom {
+
+    max-width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10.5px 0px;
+    position: absolute;
+    z-index: 999;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -31px;
+    p {
+      font-size: 18px;
+    }
+  }
+
+
+  .home-recent .receive-bg {
+    padding-top: 33px;
+    p {
+      span {
+        display: block;
+        // padding-top: 34px;
+        // padding-right: 88px;
+      }
+    }
+    .view-btn {
+      a {
+        width: 100%;
+      }
+    }
+  }
+
+  .home-info {
+    .overview-info {
+      h3{
+
+        font-family: cabin;
+        font-weight: bold;
+        font-size: 36px;
+        color: #011c4b;
+        text-align: left;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        padding-top: 52px;
+
+      }
+    }
+    .featured-careers h2 {
+      text-align: left;
+    }
+  }
+  .home-info .aside-image {
+    padding-bottom: 46px;
+    padding-top: 21px;
+  }
+
+
+}
+
+@media (min-width: 992px){
+
+  .home-brands{
+    .control-arrows.left {
+
+      background: #ececec;
+      position: absolute;
+      top:calc(50% - 15px);
+      left:0;
+      right:auto;
+      bottom: 0;
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+
+      i{
+        padding: 0px;
+        font-size:20px;
+        margin-top: 10px;
+        width:40px;
+        text-align: center;
+        color: $white;
+      }
+
+    }
+    .control-arrows.right{
+      background: #ececec;
+      position: absolute;
+      top:calc(50% - 15px);
+      left:auto;
+      right:0;
+      bottom: 0;
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+
+      i{
+        padding: 0px;
+        font-size:20px;
+        margin-top: 10px;
+        width:40px;
+        text-align: center;
+        color: $white;
+      }
+
+    }
+
+    div#carousel-brands {
+      padding: 50px;
+    }
+
+    .carousel-inner {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      min-height: 70px;
+    }
+  }
+
+  section.home-recent {
+    padding: 12px 10px;
+  }
+
+  // img.img-responsive {
+  //     float: right;
+  // }
+
+  .home-info .featured-careers .fp-buttom {
+    max-width: 184px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15.5px 0px;
+    position: absolute;
+    z-index: 999;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -31px;
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .home-info .featured-careers h2 {
+
+
+    text-align: left;
+    margin-right: auto;
+    margin-left:auto;
+  }
+
+  .home-info {
+    padding-top: 50px;
+
+    .overview-info {
+      h3 {
+        margin-top: -33px;
+      }
+
+
+      .content-body {
+        h2 {
+
+          font-weight: bold;
+        }
+
+
+      }
+
+      .menu-info-desktop {
+        padding-top: 26px;
+      }
+    }
+  }
+
+  .recent-bg {
+
+    .wrapper {
+      padding-right: 6px;
+    }
+  }
+
+  .receive-bg {
+    p.text-fly {
+      font-size: 60px;
+      font-weight: bold;
+      text-align: center;
+      // padding-right: 85px;
+
+      span {
+
+        display: block;
+        text-align: center;
+        // padding-left: 50px;
+        font-size: 60px;
+
+      }
+    }
+
+  }
+
+  .home-recent .receive-bg .receive-bg-fly {
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+  }
+
+  .home-recent .receive-bg {
+    padding: 40px 15px 30px 15px;
+    margin-bottom: 0px;
+    position: relative;
+    p{
+      padding-bottom: 0px;
+      margin-bottom: 30px;
+    }
+    p.text-fly{
+      padding-bottom: 0px;
+      margin-bottom: 36px;
+    }
+    // .sign-here{
+    //   border-width: 3px;
+    // }
+  }
+
+  .home-recent h2 {
+    text-align: left;
+    margin-left: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+  }
+
+  .recent-bg{
+    .wrapper{
+      .body{
+        .table{
+          tr{
+            margin-bottom: 0px;
+            .job_widget_title{
+              padding-top: 15px;
+              padding-bottom: 15px;
+            }
+            td{
+              padding-bottom: 27px;
+              padding-top: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .recent-bg .wrapper .body .table {
+    margin-bottom: -26px;
+    margin-left: -6px;
+  }
+
+  .home-recent .recent-bg .view-btn a {
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    // width: 360px;
+    background-color: #402977;
+  }
+
+}
+
+@media (min-width: 1200px){
+
+  //   footer{
+  // .logos-footer{
+  //   padding: 30px 0px;
+  //     ul{
+  //       display: flex;
+  //       list-style: none;
+  //       justify-content: center;
+  //       flex-direction: row;
+  //       align-items: center;
+  //
+  //       li{
+  //         // display: inline;
+  //         margin-left: 0;
+  //         margin-right: 50px;
+  //         :last-child{
+  //           margin-right: 0px;
+  //         }
+  //         img{
+  //           margin: 0px;
+  //
+  //         }
+  //       }
+  //     }
+  //   }
+  //
+  // }
+
+  .home-info .featured-careers .fp-buttom {
+    max-width: 248px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15.5px 0px;
+    position: absolute;
+    z-index: 999;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -31px;
+
+    p{
+      font-size: 21px;
+    }
+  }
+
+  .home-info .overview-info .content-body h2 {
+    font-weight: bold;
+    margin-left: -11px;
+  }
+  li.items-home {
+    margin-left: -9px;
+  }
+
+
+  .home-info .overview-info .menu-info-desktop {
+    padding-right: 20px;
+    color: #4fb949;
+    margin-top: 4px;
+  }
+
+
+  .home-recent .recent-bg .view-btn a {
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    //  width: 457px;
+    background-color: #402977;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .home-recent .receive-bg {
+    padding-bottom: 6px;
+    margin-bottom: 34px;
+
+    .sign-here {
+      max-width: 360px;
+    }
+
+  }
+
+  .recent-bg .wrapper {
+    padding-right: 6px;
+    .body{
+      .table{
+        tr{
+          td{
+            padding-bottom: 20px;
+            &:last-child{
+              padding-bottom: 23px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
